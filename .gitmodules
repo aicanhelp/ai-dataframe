@@ -1,0 +1,12 @@
+[submodule "resources/vaex"]
+	path = resources/vaex
+	url = https://github.com/vaexio/vaex.git
+[submodule "resources/dask"]
+	path = resources/dask
+	url = https://github.com/dask/dask.git
+[submodule "resources/dask-distributed"]
+	path = resources/dask-distributed
+	url = https://github.com/dask/distributed.git
+[submodule "resources/rapidminer-studio"]
+	path = resources/rapidminer-studio
+	url = https://github.com/rapidminer/rapidminer-studio.git
