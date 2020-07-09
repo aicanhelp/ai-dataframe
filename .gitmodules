@@ -10,3 +10,6 @@
 [submodule "resources/rapidminer-studio"]
 	path = resources/rapidminer-studio
 	url = https://github.com/rapidminer/rapidminer-studio.git
+[submodule "resources/pachyderm"]
+	path = resources/pachyderm
+	url = https://github.com/pachyderm/pachyderm.git
