@@ -13,3 +13,6 @@
 [submodule "resources/pachyderm"]
 	path = resources/pachyderm
 	url = https://github.com/pachyderm/pachyderm.git
+[submodule "resources/gridstudio"]
+	path = resources/gridstudio
+	url = https://github.com/ricklamers/gridstudio.git
