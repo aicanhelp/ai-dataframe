@@ -16,3 +16,9 @@
 [submodule "resources/gridstudio"]
 	path = resources/gridstudio
 	url = https://github.com/ricklamers/gridstudio.git
+[submodule "resources/amundsen"]
+	path = resources/amundsen
+	url = https://github.com/amundsen-io/amundsen.git
+[submodule "resources/datahub"]
+	path = resources/datahub
+	url = https://github.com/linkedin/datahub.git
