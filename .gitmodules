@@ -21,4 +21,52 @@
 	url = https://github.com/amundsen-io/amundsen.git
 [submodule "resources/datahub"]
 	path = resources/datahub
-	url = https://github.com/linkedin/datahub.git
+	url = git@github-aican:aicanhelp/datahub.git
+[submodule "resources/datahub-helm"]
+	path = resources/datahub-helm
+	url = https://github.com/acryldata/datahub-helm.git
+[submodule "resources/linkedin-rest.li"]
+	path = resources/linkedin-rest.li
+	url = https://github.com/linkedin/rest.li.git
+[submodule "resources/streamlit"]
+	path = resources/streamlit
+	url = https://github.com/streamlit/streamlit.git
+[submodule "resources/streamlit-geospatial"]
+	path = resources/streamlit-geospatial
+	url = https://github.com/giswqs/streamlit-geospatial.git
+[submodule "resources/streamlit-extras"]
+	path = resources/streamlit-extras
+	url = https://github.com/arnaudmiribel/streamlit-extras.git
+[submodule "resources/geomesa"]
+	path = resources/geomesa
+	url = https://github.com/locationtech/geomesa.git
+[submodule "resources/geomesa-tutorials"]
+	path = resources/geomesa-tutorials
+	url = https://github.com/geomesa/geomesa-tutorials.git
+[submodule "resources/jts"]
+	path = resources/jts
+	url = https://github.com/locationtech/jts.git
+[submodule "resources/geotrellis"]
+	path = resources/geotrellis
+	url = https://github.com/locationtech/geotrellis.git
+[submodule "resources/geoserver"]
+	path = resources/geoserver
+	url = https://github.com/geoserver/geoserver.git
+[submodule "resources/beam"]
+	path = resources/beam
+	url = https://github.com/apache/beam.git
+[submodule "resources/geonode"]
+	path = resources/geonode
+	url = https://github.com/GeoNode/geonode.git
+[submodule "resources/geonetwork-core"]
+	path = resources/geonetwork-core
+	url = https://github.com/geonetwork/core-geonetwork.git
+[submodule "resources/geonetwork-microservice"]
+	path = resources/geonetwork-microservice
+	url = https://github.com/geonetwork/geonetwork-microservices.git
+[submodule "resources/geonetwork-ui"]
+	path = resources/geonetwork-ui
+	url = https://github.com/geonetwork/geonetwork-ui.git
+[submodule "resources/geonetwork-docker"]
+	path = resources/geonetwork-docker
+	url = https://github.com/geonetwork/docker-geonetwork.git
