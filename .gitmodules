@@ -70,3 +70,75 @@
 [submodule "resources/geonetwork-docker"]
 	path = resources/geonetwork-docker
 	url = https://github.com/geonetwork/docker-geonetwork.git
+[submodule "resources/open-metadata"]
+	path = resources/open-metadata
+	url = https://github.com/open-metadata/OpenMetadata.git
+[submodule "resources/content-mesh"]
+	path = resources/content-mesh
+	url = https://github.com/gentics/mesh.git
+[submodule "resources/content-mesh-oss"]
+	path = resources/content-mesh-oss
+	url = https://github.com/gentics/cms-oss.git
+[submodule "resources/trafilatura"]
+	path = resources/trafilatura
+	url = https://github.com/adbar/trafilatura.git
+[submodule "resources/flagdata"]
+	path = resources/flagdata
+	url = https://github.com/FlagOpen/FlagData.git
+[submodule "resources/awesomw-web-scraping"]
+	path = resources/awesomw-web-scraping
+	url = https://github.com/lorien/awesome-web-scraping.git
+[submodule "resources/mnbvc/deduplication_mnbvc"]
+	path = resources/mnbvc/deduplication_mnbvc
+	url = https://github.com/aplmikex/deduplication_mnbvc.git
+[submodule "resources/mnbvc/shareGPTQA-extractor"]
+	path = resources/mnbvc/shareGPTQA-extractor
+	url = https://github.com/pany8125/ShareGPTQAExtractor-mnbvc.git
+[submodule "resources/mnbvc/fasttext-classification"]
+	path = resources/mnbvc/fasttext-classification
+	url = https://github.com/Mythos-Rudy/mnbvc-fasttext-classification.git
+[submodule "resources/mnbvc/charset"]
+	path = resources/mnbvc/charset
+	url = https://github.com/alanshi/charset_mnbvc.git
+[submodule "resources/mnbvc/mossQA"]
+	path = resources/mnbvc/mossQA
+	url = https://github.com/luojie1024/MossQA-mnbvc.git
+[submodule "resources/mnbvc/docx2json"]
+	path = resources/mnbvc/docx2json
+	url = https://github.com/fzp0515/docx2json.git
+[submodule "resources/mnbvc/parallel_corpus"]
+	path = resources/mnbvc/parallel_corpus
+	url = https://github.com/liyongsea/parallel_corpus_mnbvc.git
+[submodule "resources/mnbvc/WikiHowQAExtractor"]
+	path = resources/mnbvc/WikiHowQAExtractor
+	url = https://github.com/wanicca/WikiHowQAExtractor-mnbvc.git
+[submodule "resources/mnbvc/QA_with_reporters_from_the_Ministry_of_Foreign_Affair"]
+	path = resources/mnbvc/QA_with_reporters_from_the_Ministry_of_Foreign_Affair
+	url = https://github.com/UnstoppableCurry/QA_with_reporters_from_the_Ministry_of_Foreign_Affair_mnbvc.git
+[submodule "resources/mnbvc/pds2txt"]
+	path = resources/mnbvc/pds2txt
+	url = https://github.com/jayhenry/pdf2txt_mnbvc.git
+[submodule "resources/mnbvc/stackexchange"]
+	path = resources/mnbvc/stackexchange
+	url = https://github.com/livehl/stackexchange_mnbvc.git
+[submodule "resources/mnbvc/mmdp"]
+	path = resources/mnbvc/mmdp
+	url = https://github.com/MIracleyin/mmdp_mnbvc.git
+[submodule "resources/mnbvc/github_pub_repo"]
+	path = resources/mnbvc/github_pub_repo
+	url = https://github.com/washing1127/publicRepos_mnbvc.git
+[submodule "resources/mnbvc/github_downloader"]
+	path = resources/mnbvc/github_downloader
+	url = https://github.com/imgingroot/github_downloader_mnbvc.git
+[submodule "resources/ydata-profiling"]
+	path = resources/ydata-profiling
+	url = https://github.com/ydataai/ydata-profiling.git
+[submodule "resources/sweetviz"]
+	path = resources/sweetviz
+	url = https://github.com/fbdesignpro/sweetviz.git
+[submodule "resources/dataprep"]
+	path = resources/dataprep
+	url = https://github.com/sfu-db/dataprep.git
+[submodule "resources/autoviz"]
+	path = resources/autoviz
+	url = https://github.com/AutoViML/AutoViz.git
