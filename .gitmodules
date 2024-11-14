@@ -142,3 +142,9 @@
 [submodule "resources/autoviz"]
 	path = resources/autoviz
 	url = https://github.com/AutoViML/AutoViz.git
+[submodule "resources/apache-arrow"]
+	path = resources/apache-arrow
+	url = https://github.com/apache/arrow.git
+[submodule "resources/spring-ecm"]
+	path = resources/spring-ecm
+	url = https://github.com/paulcwarren/spring-content.git
