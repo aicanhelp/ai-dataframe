@@ -154,3 +154,9 @@
 [submodule "resources/open-metedata"]
 	path = resources/open-metedata
 	url = https://github.com/open-metadata/OpenMetadata.git
+[submodule "resources/db-anyline"]
+	path = resources/db-anyline
+	url = https://github.com/anylineorg/anyline.git
+[submodule "resources/metacat"]
+	path = resources/metacat
+	url = https://github.com/Netflix/metacat.git
