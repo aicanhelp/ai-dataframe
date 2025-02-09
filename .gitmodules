@@ -21,7 +21,7 @@
 	url = https://github.com/amundsen-io/amundsen.git
 [submodule "resources/datahub"]
 	path = resources/datahub
-	url = git@github-aican:aicanhelp/datahub.git
+	url = https://github.com/datahub-project/datahub.git
 [submodule "resources/datahub-helm"]
 	path = resources/datahub-helm
 	url = https://github.com/acryldata/datahub-helm.git
@@ -148,3 +148,9 @@
 [submodule "resources/spring-ecm"]
 	path = resources/spring-ecm
 	url = https://github.com/paulcwarren/spring-content.git
+[submodule "resources/open-lineage"]
+	path = resources/open-lineage
+	url = https://github.com/OpenLineage/OpenLineage.git
+[submodule "resources/open-metedata"]
+	path = resources/open-metedata
+	url = https://github.com/open-metadata/OpenMetadata.git
