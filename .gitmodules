@@ -163,3 +163,6 @@
 [submodule "resources/beam-etl-demo"]
 	path = resources/beam-etl-demo
 	url = https://github.com/nmoisess/apache-beam-etl-pipeline-demo.git
+[submodule "resources/kafka-ui"]
+	path = resources/kafka-ui
+	url = https://github.com/kafbat/kafka-ui.git
