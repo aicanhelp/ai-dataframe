@@ -166,3 +166,6 @@
 [submodule "resources/kafka-ui"]
 	path = resources/kafka-ui
 	url = https://github.com/kafbat/kafka-ui.git
+[submodule "resources/beam_big_data"]
+	path = resources/beam_big_data
+	url = https://github.com/PacktPublishing/Building-Big-Data-Pipelines-with-Apache-Beam.git
