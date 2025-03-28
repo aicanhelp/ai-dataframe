@@ -169,3 +169,6 @@
 [submodule "resources/beam_big_data"]
 	path = resources/beam_big_data
 	url = https://github.com/PacktPublishing/Building-Big-Data-Pipelines-with-Apache-Beam.git
+[submodule "resources/opentelemetry-java-examples"]
+	path = resources/opentelemetry-java-examples
+	url = https://github.com/open-telemetry/opentelemetry-java-examples.git
