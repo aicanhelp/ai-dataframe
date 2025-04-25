@@ -172,3 +172,18 @@
 [submodule "resources/opentelemetry-java-examples"]
 	path = resources/opentelemetry-java-examples
 	url = https://github.com/open-telemetry/opentelemetry-java-examples.git
+[submodule "resources/flink-on-k8s-operator"]
+	path = resources/flink-on-k8s-operator
+	url = https://github.com/spotify/flink-on-k8s-operator.git
+[submodule "resources/flink-cdc"]
+	path = resources/flink-cdc
+	url = https://github.com/apache/flink-cdc.git
+[submodule "resources/tis"]
+	path = resources/tis
+	url = https://github.com/datavane/tis.git
+[submodule "resources/datavines"]
+	path = resources/datavines
+	url = https://github.com/datavane/datavines.git
+[submodule "resources/flink_second_understand"]
+	path = resources/flink_second_understand
+	url = https://github.com/threeknowbigdata/flink_second_understand.git
