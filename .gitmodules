@@ -187,3 +187,12 @@
 [submodule "resources/flink_second_understand"]
 	path = resources/flink_second_understand
 	url = https://github.com/threeknowbigdata/flink_second_understand.git
+[submodule "resources/flink-learning"]
+	path = resources/flink-learning
+	url = https://github.com/zhisheng17/flink-learning.git
+[submodule "resources/content-oss"]
+	path = resources/content-oss
+	url = https://github.com/gentics/cms-oss.git
+[submodule "resources/flink"]
+	path = resources/flink
+	url = https://github.com/apache/flink.git
