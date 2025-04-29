@@ -196,3 +196,21 @@
 [submodule "resources/flink"]
 	path = resources/flink
 	url = https://github.com/apache/flink.git
+[submodule "resources/flink-kubernetes-operator"]
+	path = resources/flink-kubernetes-operator
+	url = https://github.com/apache/flink-kubernetes-operator.git
+[submodule "resources/starrocks"]
+	path = resources/starrocks
+	url = https://github.com/StarRocks/starrocks.git
+[submodule "resources/superset"]
+	path = resources/superset
+	url = https://github.com/apache/superset.git
+[submodule "resources/superset-zh"]
+	path = resources/superset-zh
+	url = https://github.com/lutinglt/superset-zh.git
+[submodule "resources/dinky"]
+	path = resources/dinky
+	url = https://github.com/DataLinkDC/dinky.git
+[submodule "resources/starrocks-demo"]
+	path = resources/starrocks-demo
+	url = https://github.com/StarRocks/demo.git
