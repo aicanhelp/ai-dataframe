@@ -38,12 +38,12 @@ import org.dinky.data.model.Task;
 import org.dinky.data.result.SqlExplainResult;
 import org.dinky.job.Job;
 import org.dinky.job.JobResult;
-import org.dinky.mapper.DataBaseMapper;
+import org.dinky.infrastructure.mapper.DataBaseMapper;
 import org.dinky.metadata.driver.Driver;
 import org.dinky.metadata.result.JdbcSelectResult;
-import org.dinky.mybatis.service.impl.SuperServiceImpl;
+import org.dinky.common.mybatis.service.impl.SuperServiceImpl;
 import org.dinky.service.DataBaseService;
-import org.dinky.service.TaskService;
+import org.dinky.domain.task.TaskService;
 
 import org.apache.commons.lang3.StringUtils;
 

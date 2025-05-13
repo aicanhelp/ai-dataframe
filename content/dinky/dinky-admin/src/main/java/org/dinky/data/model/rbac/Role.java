@@ -19,7 +19,7 @@
 
 package org.dinky.data.model.rbac;
 
-import org.dinky.mybatis.model.DateBaseEntity;
+import org.dinky.common.mybatis.model.DateBaseEntity;
 
 import java.io.Serializable;
 

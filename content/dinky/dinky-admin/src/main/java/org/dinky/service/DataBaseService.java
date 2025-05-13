@@ -31,7 +31,7 @@ import org.dinky.data.model.Table;
 import org.dinky.data.result.SqlExplainResult;
 import org.dinky.job.JobResult;
 import org.dinky.metadata.result.JdbcSelectResult;
-import org.dinky.mybatis.service.ISuperService;
+import org.dinky.common.mybatis.service.ISuperService;
 
 import java.util.List;
 

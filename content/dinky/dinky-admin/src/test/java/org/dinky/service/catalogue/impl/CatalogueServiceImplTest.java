@@ -30,9 +30,9 @@ import org.dinky.data.bo.catalogue.export.ExportCatalogueBO;
 import org.dinky.data.dto.ImportCatalogueDTO;
 import org.dinky.data.model.Catalogue;
 import org.dinky.data.vo.ExportCatalogueVO;
-import org.dinky.mapper.CatalogueMapper;
-import org.dinky.service.TaskService;
-import org.dinky.service.catalogue.factory.CatalogueFactory;
+import org.dinky.infrastructure.mapper.CatalogueMapper;
+import org.dinky.domain.task.TaskService;
+import org.dinky.domain.catalogue.factory.CatalogueFactory;
 
 import java.lang.reflect.Field;
 import java.util.concurrent.atomic.AtomicInteger;

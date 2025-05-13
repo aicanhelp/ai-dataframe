@@ -27,7 +27,7 @@ import org.dinky.data.vo.suggestion.SuggestionVO;
 import org.dinky.service.DocumentService;
 import org.dinky.service.FragmentVariableService;
 import org.dinky.service.SuggestionService;
-import org.dinky.utils.FlinkConfigOptionsUtils;
+import org.dinky.infrastructure.utils.FlinkConfigOptionsUtils;
 
 import java.util.HashSet;
 import java.util.List;

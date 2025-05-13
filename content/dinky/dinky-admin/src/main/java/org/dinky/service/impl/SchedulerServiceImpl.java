@@ -23,7 +23,7 @@ import org.dinky.data.enums.Status;
 import org.dinky.data.exception.BusException;
 import org.dinky.data.model.Catalogue;
 import org.dinky.data.model.SystemConfiguration;
-import org.dinky.init.SystemInit;
+import org.dinky.common.init.SystemInit;
 import org.dinky.scheduler.client.ProcessClient;
 import org.dinky.scheduler.client.TaskClient;
 import org.dinky.scheduler.enums.ReleaseState;
@@ -40,7 +40,7 @@ import org.dinky.scheduler.model.TaskGroup;
 import org.dinky.scheduler.model.TaskMainInfo;
 import org.dinky.scheduler.model.TaskRequest;
 import org.dinky.service.SchedulerService;
-import org.dinky.service.catalogue.CatalogueService;
+import org.dinky.domain.catalogue.CatalogueService;
 import org.dinky.utils.JsonUtils;
 
 import java.util.ArrayList;

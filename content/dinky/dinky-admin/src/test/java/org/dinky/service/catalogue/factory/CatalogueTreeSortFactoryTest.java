@@ -23,10 +23,11 @@ import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.ArgumentMatchers.anyString;
 import static org.mockito.Mockito.when;
 
-import org.dinky.service.catalogue.strategy.CatalogueTreeSortStrategy;
-import org.dinky.service.catalogue.strategy.impl.CatalogueTreeSortCreateTimeStrategy;
-import org.dinky.service.catalogue.strategy.impl.CatalogueTreeSortDefaultStrategy;
-import org.dinky.service.catalogue.strategy.impl.CatalogueTreeSortFirstLetterStrategy;
+import org.dinky.domain.catalogue.factory.CatalogueTreeSortFactory;
+import org.dinky.domain.catalogue.strategy.CatalogueTreeSortStrategy;
+import org.dinky.domain.catalogue.strategy.impl.CatalogueTreeSortCreateTimeStrategy;
+import org.dinky.domain.catalogue.strategy.impl.CatalogueTreeSortDefaultStrategy;
+import org.dinky.domain.catalogue.strategy.impl.CatalogueTreeSortFirstLetterStrategy;
 
 import java.util.Map;
 

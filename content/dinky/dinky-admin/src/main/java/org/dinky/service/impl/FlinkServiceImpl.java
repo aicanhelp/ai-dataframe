@@ -23,7 +23,7 @@ import org.dinky.data.flink.config.FlinkConfigOption;
 import org.dinky.data.model.Document;
 import org.dinky.data.vo.CascaderVO;
 import org.dinky.service.FlinkService;
-import org.dinky.utils.FlinkConfigOptionsUtils;
+import org.dinky.infrastructure.utils.FlinkConfigOptionsUtils;
 
 import java.util.ArrayList;
 import java.util.List;

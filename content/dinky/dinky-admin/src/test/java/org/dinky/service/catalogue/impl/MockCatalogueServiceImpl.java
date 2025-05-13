@@ -20,13 +20,14 @@
 package org.dinky.service.catalogue.impl;
 
 import org.dinky.data.model.Catalogue;
+import org.dinky.domain.catalogue.impl.CatalogueServiceImpl;
 import org.dinky.service.HistoryService;
-import org.dinky.service.JobHistoryService;
-import org.dinky.service.JobInstanceService;
+import org.dinky.domain.job.JobHistoryService;
+import org.dinky.domain.job.JobInstanceService;
 import org.dinky.service.MonitorService;
-import org.dinky.service.TaskService;
-import org.dinky.service.catalogue.factory.CatalogueFactory;
-import org.dinky.service.catalogue.factory.CatalogueTreeSortFactory;
+import org.dinky.domain.task.TaskService;
+import org.dinky.domain.catalogue.factory.CatalogueFactory;
+import org.dinky.domain.catalogue.factory.CatalogueTreeSortFactory;
 
 import java.util.Collection;
 import java.util.Optional;

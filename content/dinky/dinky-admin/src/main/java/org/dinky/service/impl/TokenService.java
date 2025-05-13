@@ -19,12 +19,12 @@
 
 package org.dinky.service.impl;
 
-import org.dinky.context.UserInfoContextHolder;
+import org.dinky.common.context.UserInfoContextHolder;
 import org.dinky.data.dto.UserDTO;
 import org.dinky.data.model.SysToken;
 import org.dinky.data.model.rbac.User;
-import org.dinky.mapper.TenantMapper;
-import org.dinky.mapper.TokenMapper;
+import org.dinky.infrastructure.mapper.TenantMapper;
+import org.dinky.infrastructure.mapper.TokenMapper;
 
 import java.util.Collections;
 import java.util.List;

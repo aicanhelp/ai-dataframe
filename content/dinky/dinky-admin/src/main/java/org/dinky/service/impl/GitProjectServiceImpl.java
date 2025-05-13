@@ -26,12 +26,12 @@ import org.dinky.data.dto.TreeNodeDTO;
 import org.dinky.data.exception.DinkyException;
 import org.dinky.data.model.GitProject;
 import org.dinky.function.pool.UdfCodePool;
-import org.dinky.mapper.GitProjectMapper;
-import org.dinky.mybatis.service.impl.SuperServiceImpl;
+import org.dinky.infrastructure.mapper.GitProjectMapper;
+import org.dinky.common.mybatis.service.impl.SuperServiceImpl;
 import org.dinky.service.GitProjectService;
-import org.dinky.utils.GitRepository;
+import org.dinky.infrastructure.utils.GitRepository;
 import org.dinky.utils.JsonUtils;
-import org.dinky.utils.TreeUtil;
+import org.dinky.infrastructure.utils.TreeUtil;
 
 import java.io.File;
 import java.util.LinkedHashMap;

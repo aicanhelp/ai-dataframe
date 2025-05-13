@@ -21,7 +21,7 @@ package org.dinky.data.model;
 
 import org.dinky.data.typehandler.JSONObjectHandler;
 import org.dinky.gateway.model.FlinkClusterConfig;
-import org.dinky.mybatis.model.SuperEntity;
+import org.dinky.common.mybatis.model.SuperEntity;
 
 import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableName;

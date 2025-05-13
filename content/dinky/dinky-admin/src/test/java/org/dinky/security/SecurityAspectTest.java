@@ -19,6 +19,7 @@
 
 package org.dinky.security;
 
+import org.dinky.common.security.SecurityAspect;
 import org.junit.Assert;
 import org.junit.Ignore;
 import org.junit.Test;

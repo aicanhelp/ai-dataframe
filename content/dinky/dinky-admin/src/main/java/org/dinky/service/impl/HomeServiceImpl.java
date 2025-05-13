@@ -23,15 +23,15 @@ import org.dinky.data.model.home.HomeResource;
 import org.dinky.data.model.home.JobModelOverview;
 import org.dinky.data.model.home.JobStatusOverView;
 import org.dinky.data.model.home.JobTypeOverView;
-import org.dinky.service.AlertGroupService;
-import org.dinky.service.AlertInstanceService;
-import org.dinky.service.ClusterConfigurationService;
-import org.dinky.service.ClusterInstanceService;
+import org.dinky.domain.alert.AlertGroupService;
+import org.dinky.domain.alert.AlertInstanceService;
+import org.dinky.domain.cluster.ClusterConfigurationService;
+import org.dinky.domain.cluster.ClusterInstanceService;
 import org.dinky.service.DataBaseService;
 import org.dinky.service.FragmentVariableService;
 import org.dinky.service.GitProjectService;
-import org.dinky.service.HomeService;
-import org.dinky.service.TaskService;
+import org.dinky.domain.admin.HomeService;
+import org.dinky.domain.task.TaskService;
 
 import java.util.List;
 

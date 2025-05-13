@@ -20,7 +20,7 @@
 package org.dinky.service;
 
 import org.dinky.data.model.Document;
-import org.dinky.mybatis.service.ISuperService;
+import org.dinky.common.mybatis.service.ISuperService;
 
 import java.util.List;
 

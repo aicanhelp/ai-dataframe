@@ -19,13 +19,13 @@
 
 package org.dinky.service.impl;
 
-import org.dinky.crypto.CryptoComponent;
+import org.dinky.common.crypto.CryptoComponent;
 import org.dinky.data.model.FragmentVariable;
 import org.dinky.data.result.ProTableResult;
-import org.dinky.mapper.FragmentVariableMapper;
-import org.dinky.mybatis.service.impl.SuperServiceImpl;
+import org.dinky.infrastructure.mapper.FragmentVariableMapper;
+import org.dinky.common.mybatis.service.impl.SuperServiceImpl;
 import org.dinky.service.FragmentVariableService;
-import org.dinky.utils.FragmentVariableUtils;
+import org.dinky.infrastructure.utils.FragmentVariableUtils;
 
 import java.util.LinkedHashMap;
 import java.util.List;

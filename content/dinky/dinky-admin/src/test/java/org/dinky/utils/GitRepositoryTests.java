@@ -22,6 +22,7 @@ package org.dinky.utils;
 import java.io.File;
 import java.util.List;
 
+import org.dinky.infrastructure.utils.GitRepository;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 

@@ -42,10 +42,10 @@ import org.dinky.explainer.sqllineage.SQLLineageBuilder;
 import org.dinky.job.JobConfig;
 import org.dinky.job.JobManager;
 import org.dinky.metadata.driver.Driver;
-import org.dinky.service.ClusterInstanceService;
+import org.dinky.domain.cluster.ClusterInstanceService;
 import org.dinky.service.DataBaseService;
 import org.dinky.service.StudioService;
-import org.dinky.service.TaskService;
+import org.dinky.domain.task.TaskService;
 import org.dinky.utils.FlinkTableMetadataUtil;
 import org.dinky.utils.RunTimeUtil;
 

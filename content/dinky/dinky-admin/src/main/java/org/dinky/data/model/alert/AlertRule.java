@@ -20,7 +20,7 @@
 package org.dinky.data.model.alert;
 
 import org.dinky.data.typehandler.ListTypeHandler;
-import org.dinky.mybatis.model.SuperEntity;
+import org.dinky.common.mybatis.model.SuperEntity;
 
 import java.util.List;
 

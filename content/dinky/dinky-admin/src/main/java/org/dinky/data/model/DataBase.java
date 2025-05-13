@@ -21,7 +21,7 @@ package org.dinky.data.model;
 
 import org.dinky.data.typehandler.JSONObjectHandler;
 import org.dinky.metadata.config.DriverConfig;
-import org.dinky.mybatis.model.SuperEntity;
+import org.dinky.common.mybatis.model.SuperEntity;
 
 import java.time.LocalDateTime;
 import java.util.Map;

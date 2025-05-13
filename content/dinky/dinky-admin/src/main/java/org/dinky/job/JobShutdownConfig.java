@@ -19,7 +19,7 @@
 
 package org.dinky.job;
 
-import org.dinky.context.TenantContextHolder;
+import org.dinky.common.context.TenantContextHolder;
 import org.dinky.data.result.ResultPool;
 
 import java.util.List;

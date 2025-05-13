@@ -19,17 +19,17 @@
 
 package org.dinky.job;
 
-import org.dinky.context.SpringContextUtils;
+import org.dinky.common.context.SpringContextUtils;
 import org.dinky.daemon.task.DaemonTask;
 import org.dinky.daemon.task.DaemonTaskConfig;
 import org.dinky.data.model.Configuration;
 import org.dinky.data.model.SystemConfiguration;
 import org.dinky.job.handler.ClearJobHistoryHandler;
-import org.dinky.service.ClusterInstanceService;
+import org.dinky.domain.cluster.ClusterInstanceService;
 import org.dinky.service.HistoryService;
-import org.dinky.service.JobHistoryService;
-import org.dinky.service.JobInstanceService;
-import org.dinky.service.impl.ClusterInstanceServiceImpl;
+import org.dinky.domain.job.JobHistoryService;
+import org.dinky.domain.job.JobInstanceService;
+import org.dinky.domain.cluster.ClusterInstanceServiceImpl;
 
 import org.springframework.context.annotation.DependsOn;
 

@@ -23,10 +23,10 @@ import org.dinky.assertion.Asserts;
 import org.dinky.data.model.ClusterInstance;
 import org.dinky.data.model.job.History;
 import org.dinky.data.model.job.JobInstance;
-import org.dinky.service.ClusterInstanceService;
+import org.dinky.domain.cluster.ClusterInstanceService;
 import org.dinky.service.HistoryService;
-import org.dinky.service.JobHistoryService;
-import org.dinky.service.JobInstanceService;
+import org.dinky.domain.job.JobHistoryService;
+import org.dinky.domain.job.JobInstanceService;
 
 import java.time.LocalDateTime;
 import java.util.List;

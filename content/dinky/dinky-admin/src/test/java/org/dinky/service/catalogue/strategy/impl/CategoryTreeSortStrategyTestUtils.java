@@ -20,7 +20,7 @@
 package org.dinky.service.catalogue.strategy.impl;
 
 import org.dinky.data.model.Catalogue;
-import org.dinky.utils.Safes;
+import org.dinky.infrastructure.utils.Safes;
 
 import java.util.List;
 

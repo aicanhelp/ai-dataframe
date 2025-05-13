@@ -19,7 +19,7 @@
 
 package org.dinky.data.vo;
 
-import org.dinky.ws.GlobalWebSocket;
+import org.dinky.endpoint.ws.GlobalWebSocket;
 
 import lombok.Data;
 

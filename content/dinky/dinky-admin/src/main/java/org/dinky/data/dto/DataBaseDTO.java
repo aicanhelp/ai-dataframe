@@ -20,7 +20,7 @@
 package org.dinky.data.dto;
 
 import org.dinky.data.model.DataBase;
-import org.dinky.mybatis.model.SuperEntity;
+import org.dinky.common.mybatis.model.SuperEntity;
 
 import java.time.LocalDateTime;
 import java.util.Map;

@@ -20,7 +20,7 @@
 package org.dinky.data.dto;
 
 import org.dinky.data.model.ClusterInstance;
-import org.dinky.mybatis.annotation.Save;
+import org.dinky.common.mybatis.annotation.Save;
 
 import javax.validation.constraints.NotNull;
 

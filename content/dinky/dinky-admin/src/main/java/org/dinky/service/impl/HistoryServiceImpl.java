@@ -20,8 +20,8 @@
 package org.dinky.service.impl;
 
 import org.dinky.data.model.job.History;
-import org.dinky.mapper.HistoryMapper;
-import org.dinky.mybatis.service.impl.SuperServiceImpl;
+import org.dinky.infrastructure.mapper.HistoryMapper;
+import org.dinky.common.mybatis.service.impl.SuperServiceImpl;
 import org.dinky.service.HistoryService;
 
 import org.springframework.stereotype.Service;

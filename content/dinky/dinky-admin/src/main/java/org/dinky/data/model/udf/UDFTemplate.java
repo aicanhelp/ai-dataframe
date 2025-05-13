@@ -19,7 +19,7 @@
 
 package org.dinky.data.model.udf;
 
-import org.dinky.mybatis.model.SuperEntity;
+import org.dinky.common.mybatis.model.SuperEntity;
 
 import com.baomidou.mybatisplus.annotation.TableName;
 

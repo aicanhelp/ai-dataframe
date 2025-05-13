@@ -19,7 +19,7 @@
 
 package org.dinky.job.handler;
 
-import org.dinky.context.SpringContextUtils;
+import org.dinky.common.context.SpringContextUtils;
 import org.dinky.data.model.job.History;
 import org.dinky.data.result.SelectResult;
 import org.dinky.job.JobReadHandler;

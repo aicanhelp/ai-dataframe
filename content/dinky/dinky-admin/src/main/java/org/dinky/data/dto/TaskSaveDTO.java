@@ -24,7 +24,7 @@ import org.dinky.data.model.Task;
 import org.dinky.data.model.ext.TaskExtConfig;
 import org.dinky.data.typehandler.JSONObjectHandler;
 import org.dinky.data.typehandler.ListTypeHandler;
-import org.dinky.mybatis.annotation.Save;
+import org.dinky.common.mybatis.annotation.Save;
 
 import org.apache.ibatis.type.JdbcType;
 

@@ -21,7 +21,7 @@ package org.dinky.data.dto;
 
 import org.dinky.data.model.ClusterConfiguration;
 import org.dinky.gateway.model.FlinkClusterConfig;
-import org.dinky.mybatis.annotation.Save;
+import org.dinky.common.mybatis.annotation.Save;
 
 import javax.validation.constraints.NotNull;
 

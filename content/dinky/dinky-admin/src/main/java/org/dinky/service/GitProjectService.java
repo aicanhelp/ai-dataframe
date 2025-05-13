@@ -23,7 +23,7 @@ import org.dinky.data.dto.GitProjectDTO;
 import org.dinky.data.dto.GitProjectSortJarDTO;
 import org.dinky.data.dto.TreeNodeDTO;
 import org.dinky.data.model.GitProject;
-import org.dinky.mybatis.service.ISuperService;
+import org.dinky.common.mybatis.service.ISuperService;
 
 import java.util.List;
 import java.util.Map;

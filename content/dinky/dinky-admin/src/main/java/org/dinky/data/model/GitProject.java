@@ -19,7 +19,7 @@
 
 package org.dinky.data.model;
 
-import org.dinky.mybatis.model.SuperEntity;
+import org.dinky.common.mybatis.model.SuperEntity;
 
 import java.util.Date;
 

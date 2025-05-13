@@ -20,7 +20,7 @@
 package org.dinky.service.impl;
 
 import org.dinky.data.model.Dashboard;
-import org.dinky.mapper.DashboardMapper;
+import org.dinky.infrastructure.mapper.DashboardMapper;
 import org.dinky.service.DashboardService;
 
 import org.springframework.stereotype.Service;

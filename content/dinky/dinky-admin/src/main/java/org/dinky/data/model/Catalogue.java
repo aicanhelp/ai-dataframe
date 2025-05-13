@@ -20,7 +20,7 @@
 package org.dinky.data.model;
 
 import org.dinky.data.annotations.TaskId;
-import org.dinky.mybatis.model.SuperEntity;
+import org.dinky.common.mybatis.model.SuperEntity;
 
 import java.util.ArrayList;
 import java.util.List;

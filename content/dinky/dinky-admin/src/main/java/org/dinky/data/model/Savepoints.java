@@ -19,7 +19,7 @@
 
 package org.dinky.data.model;
 
-import org.dinky.mybatis.annotation.Save;
+import org.dinky.common.mybatis.annotation.Save;
 
 import java.io.Serializable;
 import java.time.LocalDateTime;

@@ -21,8 +21,8 @@ package org.dinky.service.impl;
 
 import org.dinky.assertion.Asserts;
 import org.dinky.data.model.Document;
-import org.dinky.mapper.DocumentMapper;
-import org.dinky.mybatis.service.impl.SuperServiceImpl;
+import org.dinky.infrastructure.mapper.DocumentMapper;
+import org.dinky.common.mybatis.service.impl.SuperServiceImpl;
 import org.dinky.service.DocumentService;
 
 import java.util.List;

@@ -27,6 +27,7 @@ import org.dinky.data.model.Catalogue;
 import java.time.LocalDateTime;
 import java.util.List;
 
+import org.dinky.domain.catalogue.strategy.impl.CatalogueTreeSortFirstLetterStrategy;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
