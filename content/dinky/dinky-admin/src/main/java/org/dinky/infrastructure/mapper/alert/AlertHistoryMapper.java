@@ -17,12 +17,17 @@
  *
  */
 
-package org.dinky.infrastructure.mapper;
+package org.dinky.infrastructure.mapper.alert;
 
-import org.dinky.data.model.OperateLog;
+import org.dinky.data.model.alert.AlertHistory;
 import org.dinky.common.mybatis.mapper.SuperMapper;
 
 import org.apache.ibatis.annotations.Mapper;
 
+/**
+ * AlertHistoryMapper
+ *
+ * @since 2022/2/24 20:32
+ */
 @Mapper
-public interface OperateLogMapper extends SuperMapper<OperateLog> {}
+public interface AlertHistoryMapper extends SuperMapper<AlertHistory> {}

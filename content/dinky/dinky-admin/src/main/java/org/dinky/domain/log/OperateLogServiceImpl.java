@@ -21,7 +21,7 @@ package org.dinky.domain.log;
 
 import org.dinky.data.model.OperateLog;
 import org.dinky.data.result.ProTableResult;
-import org.dinky.infrastructure.mapper.OperateLogMapper;
+import org.dinky.infrastructure.mapper.log.OperateLogMapper;
 import org.dinky.common.mybatis.service.impl.SuperServiceImpl;
 
 import java.util.HashMap;

@@ -26,7 +26,7 @@ import org.dinky.data.vo.CascaderVO;
 import org.dinky.data.vo.UDFManageVO;
 import org.dinky.function.FlinkUDFDiscover;
 import org.dinky.function.data.model.UDF;
-import org.dinky.infrastructure.mapper.UDFManageMapper;
+import org.dinky.infrastructure.mapper.udf.UDFManageMapper;
 import org.dinky.domain.resource.ResourcesService;
 import org.dinky.infrastructure.utils.UDFUtils;
 

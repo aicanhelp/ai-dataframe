@@ -17,38 +17,17 @@
  *
  */
 
-package org.dinky.infrastructure.mapper;
+package org.dinky.infrastructure.mapper.cluster;
 
-import org.dinky.data.model.rbac.Role;
+import org.dinky.data.model.ClusterConfiguration;
 import org.dinky.common.mybatis.mapper.SuperMapper;
 
 import org.apache.ibatis.annotations.Mapper;
-import org.apache.ibatis.annotations.Param;
 
-import java.util.List;
-import java.util.Set;
-
-/** role mapper interface */
+/**
+ * ClusterConfigurationMapper
+ *
+ * @since 2021/5/28 13:56
+ */
 @Mapper
-public interface RoleMapper extends SuperMapper<Role> {
-
-    List<Role> getRoleByIds(@Param("roleIds") Set<Integer> roleIds);
-
-    List<Role> getRoleByTenantIdAndIds(@Param("tenantId") String tenantId, @Param("roleIds") Set<Integer> roleIds);
-
-    /**
-     * Query roles by user ID.
-     *
-     * @param userId user ID
-     * @return role list
-     */
-    List<Role> selectRolePermissionByUserId(Integer userId);
-
-    /**
-     * Obtain a list of role selection boxes by user ID.
-     *
-     * @param userId user ID
-     * @return result
-     */
-    List<Integer> selectRoleListByUserId(Integer userId);
-}
+public interface ClusterConfigurationMapper extends SuperMapper<ClusterConfiguration> {}

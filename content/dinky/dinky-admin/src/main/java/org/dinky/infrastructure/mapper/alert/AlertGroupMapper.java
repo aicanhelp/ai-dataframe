@@ -17,22 +17,17 @@
  *
  */
 
-package org.dinky.infrastructure.mapper;
+package org.dinky.infrastructure.mapper.alert;
 
-import org.dinky.data.model.rbac.UserTenant;
+import org.dinky.data.model.alert.AlertGroup;
 import org.dinky.common.mybatis.mapper.SuperMapper;
 
 import org.apache.ibatis.annotations.Mapper;
-import org.apache.ibatis.annotations.Param;
 
-import java.util.List;
-
+/**
+ * AlertGroupMapper
+ *
+ * @since 2022/2/24 19:59
+ */
 @Mapper
-public interface UserTenantMapper extends SuperMapper<UserTenant> {
-
-    /**
-     * @param userId userId
-     * @return user role tenant
-     */
-    List<UserTenant> getUserTenantByUserId(@Param("userId") int userId);
-}
+public interface AlertGroupMapper extends SuperMapper<AlertGroup> {}

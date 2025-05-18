@@ -17,17 +17,12 @@
  *
  */
 
-package org.dinky.infrastructure.mapper;
+package org.dinky.infrastructure.mapper.alert;
 
-import org.dinky.data.model.alert.AlertGroup;
+import org.dinky.data.model.alert.AlertTemplate;
 import org.dinky.common.mybatis.mapper.SuperMapper;
 
 import org.apache.ibatis.annotations.Mapper;
 
-/**
- * AlertGroupMapper
- *
- * @since 2022/2/24 19:59
- */
 @Mapper
-public interface AlertGroupMapper extends SuperMapper<AlertGroup> {}
+public interface AlertTemplateMapper extends SuperMapper<AlertTemplate> {}

@@ -22,7 +22,7 @@ package org.dinky.domain.alert.impl;
 import org.dinky.data.model.alert.AlertHistory;
 import org.dinky.domain.alert.AlertGroupService;
 import org.dinky.domain.alert.AlertHistoryService;
-import org.dinky.infrastructure.mapper.AlertHistoryMapper;
+import org.dinky.infrastructure.mapper.alert.AlertHistoryMapper;
 import org.dinky.common.mybatis.service.impl.SuperServiceImpl;
 
 import java.util.List;

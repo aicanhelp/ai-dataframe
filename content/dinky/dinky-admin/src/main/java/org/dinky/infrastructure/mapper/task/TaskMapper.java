@@ -17,9 +17,11 @@
  *
  */
 
-package org.dinky.infrastructure.mapper;
+package org.dinky.infrastructure.mapper.task;
 
-import org.dinky.data.model.rbac.Menu;
+import org.dinky.data.model.Task;
+import org.dinky.data.model.home.JobModelOverview;
+import org.dinky.data.model.home.JobTypeOverView;
 import org.dinky.common.mybatis.mapper.SuperMapper;
 
 import org.apache.ibatis.annotations.Mapper;
@@ -27,29 +29,29 @@ import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
 
-/** MenuMapper */
+import com.baomidou.mybatisplus.annotation.InterceptorIgnore;
+
+/**
+ * 作业 Mapper 接口
+ *
+ * @since 2021-05-28
+ */
 @Mapper
-public interface MenuMapper extends SuperMapper<Menu> {
+public interface TaskMapper extends SuperMapper<Task> {
 
-    List<Menu> listAllMenus();
+    List<Task> queryOnLineTaskByDoneStatus(
+            @Param("parentIds") List<Integer> parentIds,
+            @Param("stepIds") List<Integer> stepIds,
+            @Param("includeNull") boolean includeNull,
+            @Param("jobStatuses") List<String> jobStatuses);
 
-    List<Menu> selectMenuList(Menu menu);
+    @InterceptorIgnore(tenantLine = "true")
+    Task getTaskByNameAndTenantId(@Param("name") String name, @Param("tenantId") Integer tenantId);
 
-    List<String> selectMenuPerms();
+    @InterceptorIgnore(tenantLine = "true")
+    Integer getTenantByTaskId(@Param("id") Integer id);
 
-    List<Menu> selectMenuListByUserId(Menu menu);
+    List<JobTypeOverView> getTaskOnlineRate();
 
-    List<String> selectMenuPermsByUserId(Integer userId);
-
-    List<Menu> listMenus4SuperAdmin();
-
-    List<Menu> selectMenuTreeByUserId(@Param("userId") Integer userId);
-
-    List<Integer> selectMenuListByRoleId(Integer roleId);
-
-    int hasChildByMenuId(Integer menuId);
-
-    Menu checkMenuNameUnique(@Param("name") String name, @Param("parentId") Integer parentId);
-
-    List<String> selectMenuPermsByRoleId(Integer roleId);
+    JobModelOverview getJobStreamingOrBatchModelOverview();
 }

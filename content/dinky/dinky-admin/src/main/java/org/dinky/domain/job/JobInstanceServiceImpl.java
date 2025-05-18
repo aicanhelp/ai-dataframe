@@ -44,7 +44,7 @@ import org.dinky.data.vo.task.JobInstanceVo;
 import org.dinky.explainer.lineage.LineageBuilder;
 import org.dinky.explainer.lineage.LineageResult;
 import org.dinky.job.FlinkJobTask;
-import org.dinky.infrastructure.mapper.JobInstanceMapper;
+import org.dinky.infrastructure.mapper.job.JobInstanceMapper;
 import org.dinky.common.mybatis.service.impl.SuperServiceImpl;
 import org.dinky.common.mybatis.util.ProTableUtil;
 import org.dinky.domain.cluster.ClusterConfigurationService;

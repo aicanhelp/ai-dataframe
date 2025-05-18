@@ -22,7 +22,7 @@ package org.dinky.domain.task;
 import org.dinky.data.dto.TaskDTO;
 import org.dinky.data.model.Savepoints;
 import org.dinky.gateway.enums.SavePointStrategy;
-import org.dinky.infrastructure.mapper.SavepointsMapper;
+import org.dinky.infrastructure.mapper.task.SavepointsMapper;
 import org.dinky.common.mybatis.service.impl.SuperServiceImpl;
 
 import java.util.List;

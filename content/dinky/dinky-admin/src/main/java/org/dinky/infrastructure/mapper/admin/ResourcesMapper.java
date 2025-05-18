@@ -17,12 +17,10 @@
  *
  */
 
-package org.dinky.infrastructure.mapper;
+package org.dinky.infrastructure.mapper.admin;
 
-import org.dinky.data.model.LoginLog;
-import org.dinky.common.mybatis.mapper.SuperMapper;
+import org.dinky.data.model.Resources;
 
-import org.apache.ibatis.annotations.Mapper;
+import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
-@Mapper
-public interface LoginLogMapper extends SuperMapper<LoginLog> {}
+public interface ResourcesMapper extends BaseMapper<Resources> {}

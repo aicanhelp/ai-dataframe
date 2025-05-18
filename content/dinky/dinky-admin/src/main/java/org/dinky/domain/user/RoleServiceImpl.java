@@ -29,7 +29,7 @@ import org.dinky.data.model.rbac.User;
 import org.dinky.data.model.rbac.UserRole;
 import org.dinky.data.result.ProTableResult;
 import org.dinky.data.result.Result;
-import org.dinky.infrastructure.mapper.RoleMapper;
+import org.dinky.infrastructure.mapper.user.RoleMapper;
 import org.dinky.common.mybatis.service.impl.SuperServiceImpl;
 
 import java.util.ArrayList;

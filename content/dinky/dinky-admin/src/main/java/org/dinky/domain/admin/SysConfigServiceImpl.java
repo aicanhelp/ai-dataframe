@@ -25,7 +25,7 @@ import org.dinky.data.model.SysConfig;
 import org.dinky.data.model.SystemConfiguration;
 import org.dinky.data.model.rbac.User;
 import org.dinky.data.result.Result;
-import org.dinky.infrastructure.mapper.SysConfigMapper;
+import org.dinky.infrastructure.mapper.admin.SysConfigMapper;
 import org.dinky.common.mybatis.service.impl.SuperServiceImpl;
 import org.dinky.domain.user.UserService;
 import org.dinky.utils.TextUtil;

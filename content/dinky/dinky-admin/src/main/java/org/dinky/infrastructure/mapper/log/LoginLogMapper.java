@@ -17,33 +17,12 @@
  *
  */
 
-package org.dinky.infrastructure.mapper;
+package org.dinky.infrastructure.mapper.log;
 
-import org.dinky.data.model.rbac.RowPermissions;
+import org.dinky.data.model.LoginLog;
 import org.dinky.common.mybatis.mapper.SuperMapper;
 
 import org.apache.ibatis.annotations.Mapper;
-import org.apache.ibatis.annotations.Param;
 
-import java.util.List;
-
-/** role select permissions mapper interface */
 @Mapper
-public interface RowPermissionsMapper extends SuperMapper<RowPermissions> {
-
-    /**
-     * delete user role select permissions by role id
-     *
-     * @param roleIds role id
-     * @return delete status
-     */
-    int deleteByRoleIds(@Param("roleIds") List<Integer> roleIds);
-
-    /**
-     * select user role data permissions by role ids
-     *
-     * @param roleIds role ids
-     * @return List<RowPermissions>
-     */
-    List<RowPermissions> listRoleSelectPermissionsByRoleIds(@Param("roleIds") List<Integer> roleIds);
-}
+public interface LoginLogMapper extends SuperMapper<LoginLog> {}

@@ -21,7 +21,7 @@ package org.dinky.domain.job;
 
 import org.dinky.data.dto.JobDataDto;
 import org.dinky.data.model.job.JobHistory;
-import org.dinky.infrastructure.mapper.JobHistoryMapper;
+import org.dinky.infrastructure.mapper.job.JobHistoryMapper;
 import org.dinky.common.mybatis.service.impl.SuperServiceImpl;
 
 import org.springframework.stereotype.Service;

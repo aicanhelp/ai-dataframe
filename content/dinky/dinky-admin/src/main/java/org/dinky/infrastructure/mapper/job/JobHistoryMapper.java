@@ -17,17 +17,23 @@
  *
  */
 
-package org.dinky.infrastructure.mapper;
+package org.dinky.infrastructure.mapper.job;
 
-import org.dinky.data.model.SysConfig;
+import org.dinky.data.model.job.JobHistory;
 import org.dinky.common.mybatis.mapper.SuperMapper;
 
 import org.apache.ibatis.annotations.Mapper;
 
+import com.baomidou.mybatisplus.annotation.InterceptorIgnore;
+
 /**
- * SysConfig
+ * JobHistoryMapper
  *
- * @since 2021/11/18
+ * @since 2022/3/2 19:50
  */
 @Mapper
-public interface SysConfigMapper extends SuperMapper<SysConfig> {}
+public interface JobHistoryMapper extends SuperMapper<JobHistory> {
+
+    @InterceptorIgnore(tenantLine = "true")
+    JobHistory getByIdWithoutTenant(Integer id);
+}

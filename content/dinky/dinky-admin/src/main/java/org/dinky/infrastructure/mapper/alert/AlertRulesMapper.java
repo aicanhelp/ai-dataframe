@@ -17,12 +17,18 @@
  *
  */
 
-package org.dinky.infrastructure.mapper;
+package org.dinky.infrastructure.mapper.alert;
 
-import org.dinky.data.model.alert.AlertTemplate;
+import org.dinky.data.dto.AlertRuleDTO;
+import org.dinky.data.model.alert.AlertRule;
 import org.dinky.common.mybatis.mapper.SuperMapper;
 
 import org.apache.ibatis.annotations.Mapper;
 
+import java.util.List;
+
 @Mapper
-public interface AlertTemplateMapper extends SuperMapper<AlertTemplate> {}
+public interface AlertRulesMapper extends SuperMapper<AlertRule> {
+
+    List<AlertRuleDTO> selectWithTemplate();
+}

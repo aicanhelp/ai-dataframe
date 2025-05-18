@@ -17,12 +17,22 @@
  *
  */
 
-package org.dinky.infrastructure.mapper;
+package org.dinky.infrastructure.mapper.user;
 
-import org.dinky.data.model.TaskVersion;
+import org.dinky.data.model.rbac.UserTenant;
 import org.dinky.common.mybatis.mapper.SuperMapper;
 
 import org.apache.ibatis.annotations.Mapper;
+import org.apache.ibatis.annotations.Param;
+
+import java.util.List;
 
 @Mapper
-public interface TaskVersionMapper extends SuperMapper<TaskVersion> {}
+public interface UserTenantMapper extends SuperMapper<UserTenant> {
+
+    /**
+     * @param userId userId
+     * @return user role tenant
+     */
+    List<UserTenant> getUserTenantByUserId(@Param("userId") int userId);
+}

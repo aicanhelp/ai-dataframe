@@ -20,7 +20,7 @@
 package org.dinky.domain.user;
 
 import org.dinky.data.model.rbac.RowPermissions;
-import org.dinky.infrastructure.mapper.RowPermissionsMapper;
+import org.dinky.infrastructure.mapper.user.RowPermissionsMapper;
 import org.dinky.common.mybatis.service.impl.SuperServiceImpl;
 
 import java.util.List;

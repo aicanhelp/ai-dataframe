@@ -17,16 +17,13 @@
  *
  */
 
-package org.dinky.infrastructure.mapper;
+package org.dinky.infrastructure.mapper.udf;
 
-import org.dinky.data.model.rbac.RoleMenu;
+import org.dinky.data.model.udf.UDFTemplate;
 import org.dinky.common.mybatis.mapper.SuperMapper;
 
 import org.apache.ibatis.annotations.Mapper;
 
-/** MenuMapper */
+/** udf template mapper */
 @Mapper
-public interface RoleMenuMapper extends SuperMapper<RoleMenu> {
-
-    int checkMenuExistRole(Integer menuId);
-}
+public interface UDFTemplateMapper extends SuperMapper<UDFTemplate> {}

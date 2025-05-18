@@ -23,7 +23,7 @@ import org.dinky.assertion.Asserts;
 import org.dinky.data.dto.TaskDTO;
 import org.dinky.data.dto.TaskVersionConfigureDTO;
 import org.dinky.data.model.TaskVersion;
-import org.dinky.infrastructure.mapper.TaskVersionMapper;
+import org.dinky.infrastructure.mapper.task.TaskVersionMapper;
 import org.dinky.common.mybatis.service.impl.SuperServiceImpl;
 
 import java.time.LocalDateTime;

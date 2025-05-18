@@ -17,40 +17,23 @@
  *
  */
 
-package org.dinky.infrastructure.mapper;
+package org.dinky.infrastructure.mapper.user;
 
-import org.dinky.data.model.home.JobInstanceCount;
-import org.dinky.data.model.home.JobModelOverview;
-import org.dinky.data.model.job.JobInstance;
+import org.dinky.data.model.rbac.User;
 import org.dinky.common.mybatis.mapper.SuperMapper;
 
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
-import java.util.List;
-
-import com.baomidou.mybatisplus.annotation.InterceptorIgnore;
-
 /**
- * JobInstanceMapper
+ * UserMapper
  *
- * @since 2022/2/2 13:02
+ * @since 2021/11/28 13:36
  */
 @Mapper
-public interface JobInstanceMapper extends SuperMapper<JobInstance> {
+public interface UserMapper extends SuperMapper<User> {
 
-    @InterceptorIgnore(tenantLine = "true")
-    JobInstance getByIdWithoutTenant(Integer id);
+    Integer queryAdminUserByTenant(@Param("tenantId") Integer tenantId);
 
-    List<JobInstanceCount> countStatus();
-
-    JobModelOverview getJobStreamingOrBatchModelOverview();
-
-    @InterceptorIgnore(tenantLine = "true")
-    List<JobInstance> listJobInstanceActive();
-
-    JobInstance getJobInstanceByTaskId(Integer id);
-
-    @InterceptorIgnore(tenantLine = "true")
-    Integer getTenantByJobInstanceId(@Param("id") Integer id);
+    Integer recoveryUser(@Param("id") Integer userId);
 }

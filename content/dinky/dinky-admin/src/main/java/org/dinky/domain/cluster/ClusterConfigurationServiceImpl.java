@@ -30,7 +30,7 @@ import org.dinky.gateway.config.GatewayConfig;
 import org.dinky.gateway.model.FlinkClusterConfig;
 import org.dinky.gateway.result.TestResult;
 import org.dinky.job.JobManager;
-import org.dinky.infrastructure.mapper.ClusterConfigurationMapper;
+import org.dinky.infrastructure.mapper.cluster.ClusterConfigurationMapper;
 import org.dinky.common.mybatis.service.impl.SuperServiceImpl;
 import org.dinky.domain.task.TaskService;
 

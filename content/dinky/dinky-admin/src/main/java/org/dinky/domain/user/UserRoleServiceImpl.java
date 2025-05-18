@@ -21,7 +21,7 @@ package org.dinky.domain.user;
 
 import org.dinky.data.model.rbac.Role;
 import org.dinky.data.model.rbac.UserRole;
-import org.dinky.infrastructure.mapper.UserRoleMapper;
+import org.dinky.infrastructure.mapper.user.UserRoleMapper;
 import org.dinky.common.mybatis.service.impl.SuperServiceImpl;
 
 import java.util.List;

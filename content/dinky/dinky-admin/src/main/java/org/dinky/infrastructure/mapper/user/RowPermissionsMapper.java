@@ -17,10 +17,9 @@
  *
  */
 
-package org.dinky.infrastructure.mapper;
+package org.dinky.infrastructure.mapper.user;
 
-import org.dinky.data.model.rbac.Role;
-import org.dinky.data.model.rbac.UserRole;
+import org.dinky.data.model.rbac.RowPermissions;
 import org.dinky.common.mybatis.mapper.SuperMapper;
 
 import org.apache.ibatis.annotations.Mapper;
@@ -28,26 +27,12 @@ import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
 
-/** user role mapper interface */
+/** role select permissions mapper interface */
 @Mapper
-public interface UserRoleMapper extends SuperMapper<UserRole> {
+public interface RowPermissionsMapper extends SuperMapper<RowPermissions> {
 
     /**
-     * @param userId userId
-     * @return user role relation
-     */
-    List<UserRole> getUserRoleByUserId(@Param("userId") int userId);
-
-    /**
-     * delete user role relation
-     *
-     * @param userRoleList list
-     * @return int
-     */
-    int deleteBathRelation(@Param("userRoleList") List<UserRole> userRoleList);
-
-    /**
-     * delete user role relation by role id
+     * delete user role select permissions by role id
      *
      * @param roleIds role id
      * @return delete status
@@ -55,10 +40,10 @@ public interface UserRoleMapper extends SuperMapper<UserRole> {
     int deleteByRoleIds(@Param("roleIds") List<Integer> roleIds);
 
     /**
-     * get role list by user id
+     * select user role data permissions by role ids
      *
-     * @param userId userId
-     * @return role list
+     * @param roleIds role ids
+     * @return List<RowPermissions>
      */
-    List<Role> getRoleByUserId(Integer userId);
+    List<RowPermissions> listRoleSelectPermissionsByRoleIds(@Param("roleIds") List<Integer> roleIds);
 }

@@ -23,7 +23,7 @@ import org.dinky.data.dto.AssignMenuToRoleDTO;
 import org.dinky.data.enums.Status;
 import org.dinky.data.model.rbac.RoleMenu;
 import org.dinky.data.result.Result;
-import org.dinky.infrastructure.mapper.RoleMenuMapper;
+import org.dinky.infrastructure.mapper.user.RoleMenuMapper;
 import org.dinky.common.mybatis.service.impl.SuperServiceImpl;
 
 import java.util.List;

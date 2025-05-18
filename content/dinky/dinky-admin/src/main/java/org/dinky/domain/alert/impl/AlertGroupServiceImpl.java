@@ -29,7 +29,7 @@ import org.dinky.data.model.alert.AlertInstance;
 import org.dinky.domain.alert.AlertGroupService;
 import org.dinky.domain.alert.AlertHistoryService;
 import org.dinky.domain.alert.AlertInstanceService;
-import org.dinky.infrastructure.mapper.AlertGroupMapper;
+import org.dinky.infrastructure.mapper.alert.AlertGroupMapper;
 import org.dinky.common.mybatis.service.impl.SuperServiceImpl;
 import org.dinky.domain.task.TaskService;
 

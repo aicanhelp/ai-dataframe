@@ -17,13 +17,38 @@
  *
  */
 
-package org.dinky.infrastructure.mapper;
+package org.dinky.infrastructure.mapper.user;
 
-import org.dinky.data.model.udf.UDFTemplate;
+import org.dinky.data.model.rbac.Role;
 import org.dinky.common.mybatis.mapper.SuperMapper;
 
 import org.apache.ibatis.annotations.Mapper;
+import org.apache.ibatis.annotations.Param;
 
-/** udf template mapper */
+import java.util.List;
+import java.util.Set;
+
+/** role mapper interface */
 @Mapper
-public interface UDFTemplateMapper extends SuperMapper<UDFTemplate> {}
+public interface RoleMapper extends SuperMapper<Role> {
+
+    List<Role> getRoleByIds(@Param("roleIds") Set<Integer> roleIds);
+
+    List<Role> getRoleByTenantIdAndIds(@Param("tenantId") String tenantId, @Param("roleIds") Set<Integer> roleIds);
+
+    /**
+     * Query roles by user ID.
+     *
+     * @param userId user ID
+     * @return role list
+     */
+    List<Role> selectRolePermissionByUserId(Integer userId);
+
+    /**
+     * Obtain a list of role selection boxes by user ID.
+     *
+     * @param userId user ID
+     * @return result
+     */
+    List<Integer> selectRoleListByUserId(Integer userId);
+}

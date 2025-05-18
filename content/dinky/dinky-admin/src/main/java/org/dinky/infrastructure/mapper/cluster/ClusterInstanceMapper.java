@@ -17,23 +17,17 @@
  *
  */
 
-package org.dinky.infrastructure.mapper;
+package org.dinky.infrastructure.mapper.cluster;
 
-import org.dinky.data.model.rbac.User;
+import org.dinky.data.model.ClusterInstance;
 import org.dinky.common.mybatis.mapper.SuperMapper;
 
 import org.apache.ibatis.annotations.Mapper;
-import org.apache.ibatis.annotations.Param;
 
-/**
- * UserMapper
- *
- * @since 2021/11/28 13:36
- */
+import java.util.List;
+
+/** ClusterInstanceMapper */
 @Mapper
-public interface UserMapper extends SuperMapper<User> {
-
-    Integer queryAdminUserByTenant(@Param("tenantId") Integer tenantId);
-
-    Integer recoveryUser(@Param("id") Integer userId);
+public interface ClusterInstanceMapper extends SuperMapper<ClusterInstance> {
+    List<ClusterInstance> listSessionEnable();
 }

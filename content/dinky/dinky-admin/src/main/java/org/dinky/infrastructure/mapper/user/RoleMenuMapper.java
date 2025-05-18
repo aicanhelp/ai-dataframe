@@ -17,18 +17,16 @@
  *
  */
 
-package org.dinky.infrastructure.mapper;
+package org.dinky.infrastructure.mapper.user;
 
-import org.dinky.data.dto.AlertRuleDTO;
-import org.dinky.data.model.alert.AlertRule;
+import org.dinky.data.model.rbac.RoleMenu;
 import org.dinky.common.mybatis.mapper.SuperMapper;
 
 import org.apache.ibatis.annotations.Mapper;
 
-import java.util.List;
-
+/** MenuMapper */
 @Mapper
-public interface AlertRulesMapper extends SuperMapper<AlertRule> {
+public interface RoleMenuMapper extends SuperMapper<RoleMenu> {
 
-    List<AlertRuleDTO> selectWithTemplate();
+    int checkMenuExistRole(Integer menuId);
 }

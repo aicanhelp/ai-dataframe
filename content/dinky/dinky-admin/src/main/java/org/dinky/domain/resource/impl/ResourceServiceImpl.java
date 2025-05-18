@@ -26,7 +26,7 @@ import org.dinky.data.exception.BusException;
 import org.dinky.data.model.Resources;
 import org.dinky.data.model.SystemConfiguration;
 import org.dinky.data.result.Result;
-import org.dinky.infrastructure.mapper.ResourcesMapper;
+import org.dinky.infrastructure.mapper.admin.ResourcesMapper;
 import org.dinky.resource.BaseResourceManager;
 import org.dinky.domain.resource.ResourcesService;
 import org.dinky.utils.URLUtils;

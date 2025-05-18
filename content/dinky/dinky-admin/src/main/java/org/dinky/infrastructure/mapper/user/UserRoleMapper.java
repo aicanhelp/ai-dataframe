@@ -17,11 +17,10 @@
  *
  */
 
-package org.dinky.infrastructure.mapper;
+package org.dinky.infrastructure.mapper.user;
 
-import org.dinky.data.model.Task;
-import org.dinky.data.model.home.JobModelOverview;
-import org.dinky.data.model.home.JobTypeOverView;
+import org.dinky.data.model.rbac.Role;
+import org.dinky.data.model.rbac.UserRole;
 import org.dinky.common.mybatis.mapper.SuperMapper;
 
 import org.apache.ibatis.annotations.Mapper;
@@ -29,29 +28,37 @@ import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
 
-import com.baomidou.mybatisplus.annotation.InterceptorIgnore;
-
-/**
- * 作业 Mapper 接口
- *
- * @since 2021-05-28
- */
+/** user role mapper interface */
 @Mapper
-public interface TaskMapper extends SuperMapper<Task> {
+public interface UserRoleMapper extends SuperMapper<UserRole> {
 
-    List<Task> queryOnLineTaskByDoneStatus(
-            @Param("parentIds") List<Integer> parentIds,
-            @Param("stepIds") List<Integer> stepIds,
-            @Param("includeNull") boolean includeNull,
-            @Param("jobStatuses") List<String> jobStatuses);
+    /**
+     * @param userId userId
+     * @return user role relation
+     */
+    List<UserRole> getUserRoleByUserId(@Param("userId") int userId);
 
-    @InterceptorIgnore(tenantLine = "true")
-    Task getTaskByNameAndTenantId(@Param("name") String name, @Param("tenantId") Integer tenantId);
+    /**
+     * delete user role relation
+     *
+     * @param userRoleList list
+     * @return int
+     */
+    int deleteBathRelation(@Param("userRoleList") List<UserRole> userRoleList);
 
-    @InterceptorIgnore(tenantLine = "true")
-    Integer getTenantByTaskId(@Param("id") Integer id);
+    /**
+     * delete user role relation by role id
+     *
+     * @param roleIds role id
+     * @return delete status
+     */
+    int deleteByRoleIds(@Param("roleIds") List<Integer> roleIds);
 
-    List<JobTypeOverView> getTaskOnlineRate();
-
-    JobModelOverview getJobStreamingOrBatchModelOverview();
+    /**
+     * get role list by user id
+     *
+     * @param userId userId
+     * @return role list
+     */
+    List<Role> getRoleByUserId(Integer userId);
 }

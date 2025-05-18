@@ -23,8 +23,8 @@ import org.dinky.common.context.UserInfoContextHolder;
 import org.dinky.data.dto.UserDTO;
 import org.dinky.data.model.SysToken;
 import org.dinky.data.model.rbac.User;
-import org.dinky.infrastructure.mapper.TenantMapper;
-import org.dinky.infrastructure.mapper.TokenMapper;
+import org.dinky.infrastructure.mapper.user.TenantMapper;
+import org.dinky.infrastructure.mapper.user.TokenMapper;
 
 import java.util.Collections;
 import java.util.List;

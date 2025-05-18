@@ -24,7 +24,7 @@ import org.dinky.data.dto.UserDTO;
 import org.dinky.data.enums.Status;
 import org.dinky.data.model.LoginLog;
 import org.dinky.data.model.rbac.User;
-import org.dinky.infrastructure.mapper.LoginLogMapper;
+import org.dinky.infrastructure.mapper.log.LoginLogMapper;
 import org.dinky.common.mybatis.service.impl.SuperServiceImpl;
 
 import java.time.LocalDateTime;

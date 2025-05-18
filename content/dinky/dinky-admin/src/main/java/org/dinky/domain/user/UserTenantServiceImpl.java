@@ -20,7 +20,7 @@
 package org.dinky.domain.user;
 
 import org.dinky.data.model.rbac.UserTenant;
-import org.dinky.infrastructure.mapper.UserTenantMapper;
+import org.dinky.infrastructure.mapper.user.UserTenantMapper;
 import org.dinky.common.mybatis.service.impl.SuperServiceImpl;
 
 import java.util.List;

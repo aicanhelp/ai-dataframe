@@ -25,7 +25,7 @@ import org.dinky.data.model.alert.AlertRule;
 import org.dinky.data.model.alert.AlertTemplate;
 import org.dinky.domain.alert.AlertRuleService;
 import org.dinky.domain.alert.AlertTemplateService;
-import org.dinky.infrastructure.mapper.AlertTemplateMapper;
+import org.dinky.infrastructure.mapper.alert.AlertTemplateMapper;
 import org.dinky.common.mybatis.service.impl.SuperServiceImpl;
 
 import org.springframework.stereotype.Service;

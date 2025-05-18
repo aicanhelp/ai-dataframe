@@ -17,17 +17,17 @@
  *
  */
 
-package org.dinky.infrastructure.mapper;
+package org.dinky.infrastructure.mapper.alert;
 
-import org.dinky.data.model.ClusterConfiguration;
+import org.dinky.data.model.alert.AlertInstance;
 import org.dinky.common.mybatis.mapper.SuperMapper;
 
 import org.apache.ibatis.annotations.Mapper;
 
 /**
- * ClusterConfigurationMapper
+ * AlertInstanceMapper
  *
- * @since 2021/5/28 13:56
+ * @since 2022/2/24 19:48
  */
 @Mapper
-public interface ClusterConfigurationMapper extends SuperMapper<ClusterConfiguration> {}
+public interface AlertInstanceMapper extends SuperMapper<AlertInstance> {}

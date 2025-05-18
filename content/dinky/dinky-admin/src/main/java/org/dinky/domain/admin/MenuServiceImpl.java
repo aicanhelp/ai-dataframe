@@ -28,8 +28,8 @@ import org.dinky.data.model.rbac.User;
 import org.dinky.data.result.Result;
 import org.dinky.data.vo.MetaVo;
 import org.dinky.data.vo.RouterVo;
-import org.dinky.infrastructure.mapper.MenuMapper;
-import org.dinky.infrastructure.mapper.RoleMenuMapper;
+import org.dinky.infrastructure.mapper.admin.MenuMapper;
+import org.dinky.infrastructure.mapper.user.RoleMenuMapper;
 import org.dinky.common.mybatis.service.impl.SuperServiceImpl;
 import org.dinky.domain.user.RoleMenuService;
 

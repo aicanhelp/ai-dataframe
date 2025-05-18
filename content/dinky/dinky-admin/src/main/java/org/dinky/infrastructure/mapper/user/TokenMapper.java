@@ -17,10 +17,13 @@
  *
  */
 
-package org.dinky.infrastructure.mapper;
+package org.dinky.infrastructure.mapper.user;
 
-import org.dinky.data.model.Resources;
+import org.dinky.data.model.SysToken;
+import org.dinky.common.mybatis.mapper.SuperMapper;
 
-import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import org.apache.ibatis.annotations.Mapper;
 
-public interface ResourcesMapper extends BaseMapper<Resources> {}
+/** TokenMapper */
+@Mapper
+public interface TokenMapper extends SuperMapper<SysToken> {}

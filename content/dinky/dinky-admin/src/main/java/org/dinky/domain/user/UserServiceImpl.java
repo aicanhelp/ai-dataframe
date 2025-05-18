@@ -44,8 +44,8 @@ import org.dinky.data.model.rbac.UserRole;
 import org.dinky.data.model.rbac.UserTenant;
 import org.dinky.data.result.Result;
 import org.dinky.data.vo.UserVo;
-import org.dinky.infrastructure.mapper.TokenMapper;
-import org.dinky.infrastructure.mapper.UserMapper;
+import org.dinky.infrastructure.mapper.user.TokenMapper;
+import org.dinky.infrastructure.mapper.user.UserMapper;
 import org.dinky.common.mybatis.service.impl.SuperServiceImpl;
 import org.dinky.domain.admin.MenuService;
 

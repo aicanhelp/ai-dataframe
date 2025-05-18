@@ -17,13 +17,12 @@
  *
  */
 
-package org.dinky.infrastructure.mapper;
+package org.dinky.infrastructure.mapper.log;
 
-import org.dinky.data.model.SysToken;
+import org.dinky.data.model.OperateLog;
 import org.dinky.common.mybatis.mapper.SuperMapper;
 
 import org.apache.ibatis.annotations.Mapper;
 
-/** TokenMapper */
 @Mapper
-public interface TokenMapper extends SuperMapper<SysToken> {}
+public interface OperateLogMapper extends SuperMapper<OperateLog> {}

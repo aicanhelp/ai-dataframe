@@ -28,7 +28,7 @@ import org.dinky.data.model.rbac.Role;
 import org.dinky.data.model.rbac.Tenant;
 import org.dinky.data.model.rbac.UserTenant;
 import org.dinky.data.result.Result;
-import org.dinky.infrastructure.mapper.TenantMapper;
+import org.dinky.infrastructure.mapper.user.TenantMapper;
 import org.dinky.common.mybatis.service.impl.SuperServiceImpl;
 
 import java.util.ArrayList;

@@ -23,7 +23,7 @@ import org.dinky.assertion.Asserts;
 import org.dinky.data.enums.Status;
 import org.dinky.data.exception.BusException;
 import org.dinky.data.model.udf.UDFTemplate;
-import org.dinky.infrastructure.mapper.UDFTemplateMapper;
+import org.dinky.infrastructure.mapper.udf.UDFTemplateMapper;
 import org.dinky.common.mybatis.service.impl.SuperServiceImpl;
 import org.dinky.domain.task.TaskService;
 

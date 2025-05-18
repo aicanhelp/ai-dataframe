@@ -17,17 +17,20 @@
  *
  */
 
-package org.dinky.infrastructure.mapper;
+package org.dinky.infrastructure.mapper.user;
 
-import org.dinky.data.model.alert.AlertHistory;
+import org.dinky.data.model.rbac.Tenant;
 import org.dinky.common.mybatis.mapper.SuperMapper;
 
 import org.apache.ibatis.annotations.Mapper;
+import org.apache.ibatis.annotations.Param;
 
-/**
- * AlertHistoryMapper
- *
- * @since 2022/2/24 20:32
- */
+import java.util.List;
+import java.util.Set;
+
+/** tenant mapper interface */
 @Mapper
-public interface AlertHistoryMapper extends SuperMapper<AlertHistory> {}
+public interface TenantMapper extends SuperMapper<Tenant> {
+
+    List<Tenant> getTenantByIds(@Param("tenantIds") Set<Integer> tenantIds);
+}

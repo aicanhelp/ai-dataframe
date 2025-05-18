@@ -214,3 +214,9 @@
 [submodule "resources/starrocks-demo"]
 	path = resources/starrocks-demo
 	url = https://github.com/StarRocks/demo.git
+[submodule "resources/dolphinscheduler"]
+	path = resources/dolphinscheduler
+	url = https://github.com/apache/dolphinscheduler.git
+[submodule "resources/trino"]
+	path = resources/trino
+	url = https://github.com/trinodb/trino.git

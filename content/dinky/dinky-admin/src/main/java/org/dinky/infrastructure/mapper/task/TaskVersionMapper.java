@@ -17,17 +17,12 @@
  *
  */
 
-package org.dinky.infrastructure.mapper;
+package org.dinky.infrastructure.mapper.task;
 
-import org.dinky.data.model.ClusterInstance;
+import org.dinky.data.model.TaskVersion;
 import org.dinky.common.mybatis.mapper.SuperMapper;
 
 import org.apache.ibatis.annotations.Mapper;
 
-import java.util.List;
-
-/** ClusterInstanceMapper */
 @Mapper
-public interface ClusterInstanceMapper extends SuperMapper<ClusterInstance> {
-    List<ClusterInstance> listSessionEnable();
-}
+public interface TaskVersionMapper extends SuperMapper<TaskVersion> {}

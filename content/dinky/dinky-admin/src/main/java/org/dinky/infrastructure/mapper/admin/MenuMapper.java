@@ -17,23 +17,39 @@
  *
  */
 
-package org.dinky.infrastructure.mapper;
+package org.dinky.infrastructure.mapper.admin;
 
-import org.dinky.data.model.job.JobHistory;
+import org.dinky.data.model.rbac.Menu;
 import org.dinky.common.mybatis.mapper.SuperMapper;
 
 import org.apache.ibatis.annotations.Mapper;
+import org.apache.ibatis.annotations.Param;
 
-import com.baomidou.mybatisplus.annotation.InterceptorIgnore;
+import java.util.List;
 
-/**
- * JobHistoryMapper
- *
- * @since 2022/3/2 19:50
- */
+/** MenuMapper */
 @Mapper
-public interface JobHistoryMapper extends SuperMapper<JobHistory> {
+public interface MenuMapper extends SuperMapper<Menu> {
 
-    @InterceptorIgnore(tenantLine = "true")
-    JobHistory getByIdWithoutTenant(Integer id);
+    List<Menu> listAllMenus();
+
+    List<Menu> selectMenuList(Menu menu);
+
+    List<String> selectMenuPerms();
+
+    List<Menu> selectMenuListByUserId(Menu menu);
+
+    List<String> selectMenuPermsByUserId(Integer userId);
+
+    List<Menu> listMenus4SuperAdmin();
+
+    List<Menu> selectMenuTreeByUserId(@Param("userId") Integer userId);
+
+    List<Integer> selectMenuListByRoleId(Integer roleId);
+
+    int hasChildByMenuId(Integer menuId);
+
+    Menu checkMenuNameUnique(@Param("name") String name, @Param("parentId") Integer parentId);
+
+    List<String> selectMenuPermsByRoleId(Integer roleId);
 }

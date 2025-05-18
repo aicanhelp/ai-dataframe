@@ -17,20 +17,22 @@
  *
  */
 
-package org.dinky.infrastructure.mapper;
+package org.dinky.infrastructure.mapper.task;
 
-import org.dinky.data.model.udf.UDFManage;
-import org.dinky.data.vo.UDFManageVO;
+import org.dinky.data.model.Savepoints;
 import org.dinky.common.mybatis.mapper.SuperMapper;
 
 import org.apache.ibatis.annotations.Mapper;
 
-import java.util.List;
-
 /**
- * UDFManageMapper
+ * Savepoints
+ *
+ * @since 2021/11/21
  */
 @Mapper
-public interface UDFManageMapper extends SuperMapper<UDFManage> {
-    List<UDFManageVO> selectAll();
+public interface SavepointsMapper extends SuperMapper<Savepoints> {
+
+    Savepoints getLatestSavepointByTaskId(Integer id);
+
+    Savepoints getEarliestSavepointByTaskId(Integer id);
 }

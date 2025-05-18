@@ -20,7 +20,7 @@
 package org.dinky.domain.user;
 
 import org.dinky.data.model.SysToken;
-import org.dinky.infrastructure.mapper.TokenMapper;
+import org.dinky.infrastructure.mapper.user.TokenMapper;
 import org.dinky.common.mybatis.service.impl.SuperServiceImpl;
 
 import org.springframework.stereotype.Service;
