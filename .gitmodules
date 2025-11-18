@@ -220,3 +220,54 @@
 [submodule "resources/trino"]
 	path = resources/trino
 	url = https://github.com/trinodb/trino.git
+[submodule "resources/unitycatalog"]
+	path = resources/unitycatalog
+	url = https://github.com/unitycatalog/unitycatalog.git
+[submodule "resources/seatunnel-web"]
+	path = resources/seatunnel-web
+	url = https://github.com/apache/seatunnel-web.git
+[submodule "resources/seatunnel"]
+	path = resources/seatunnel
+	url = https://github.com/apache/seatunnel.git
+[submodule "resources/inlong"]
+	path = resources/inlong
+	url = https://github.com/apache/inlong.git
+[submodule "resources/doris"]
+	path = resources/doris
+	url = https://github.com/apache/doris.git
+[submodule "resources/superset-412"]
+	path = resources/superset-412
+	url = https://github.com/martyngigg/superset.git
+[submodule "resources/dbt-duckdb"]
+	path = resources/dbt-duckdb
+	url = https://github.com/duckdb/dbt-duckdb.git
+[submodule "resources/duckdb"]
+	path = resources/duckdb
+	url = https://github.com/duckdb/duckdb.git
+[submodule "resources/marimo"]
+	path = resources/marimo
+	url = https://github.com/marimo-team/marimo.git
+[submodule "resources/sqlglot"]
+	path = resources/sqlglot
+	url = https://github.com/tobymao/sqlglot.git
+[submodule "resources/doris-operator"]
+	path = resources/doris-operator
+	url = https://github.com/apache/doris-operator.git
+[submodule "resources/postgres-operator"]
+	path = resources/postgres-operator
+	url = https://github.com/zalando/postgres-operator.git
+[submodule "resources/kyuubi"]
+	path = resources/kyuubi
+	url = https://github.com/apache/kyuubi.git
+[submodule "resources/patroni"]
+	path = resources/patroni
+	url = https://github.com/patroni/patroni.git
+[submodule "resources/kyuubi-docker"]
+	path = resources/kyuubi-docker
+	url = https://github.com/apache/kyuubi-docker.git
+[submodule "resources/openlineage"]
+	path = resources/openlineage
+	url = https://github.com/OpenLineage/OpenLineage.git
+[submodule "resources/gravitino"]
+	path = resources/gravitino
+	url = https://github.com/apache/gravitino.git
