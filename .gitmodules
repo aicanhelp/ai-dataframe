@@ -17,13 +17,13 @@
 	path = resources/gridstudio
 	url = https://github.com/ricklamers/gridstudio.git
 [submodule "resources/amundsen"]
-	path = resources/amundsen
+	path = meta-projects/amundsen
 	url = https://github.com/amundsen-io/amundsen.git
 [submodule "resources/datahub"]
-	path = resources/datahub
+	path = meta-projects/datahub
 	url = https://github.com/datahub-project/datahub.git
 [submodule "resources/datahub-helm"]
-	path = resources/datahub-helm
+	path = meta-projects/datahub-helm
 	url = https://github.com/acryldata/datahub-helm.git
 [submodule "resources/linkedin-rest.li"]
 	path = resources/linkedin-rest.li
@@ -71,7 +71,7 @@
 	path = resources/geonetwork-docker
 	url = https://github.com/geonetwork/docker-geonetwork.git
 [submodule "resources/open-metadata"]
-	path = resources/open-metadata
+	path = meta-projects/open-metadata
 	url = https://github.com/open-metadata/OpenMetadata.git
 [submodule "resources/content-mesh"]
 	path = resources/content-mesh
@@ -89,46 +89,46 @@
 	path = resources/awesomw-web-scraping
 	url = https://github.com/lorien/awesome-web-scraping.git
 [submodule "resources/mnbvc/deduplication_mnbvc"]
-	path = resources/mnbvc/deduplication_mnbvc
+	path = mnbvc-projects/deduplication_mnbvc
 	url = https://github.com/aplmikex/deduplication_mnbvc.git
 [submodule "resources/mnbvc/shareGPTQA-extractor"]
-	path = resources/mnbvc/shareGPTQA-extractor
+	path = mnbvc-projects/shareGPTQA-extractor
 	url = https://github.com/pany8125/ShareGPTQAExtractor-mnbvc.git
 [submodule "resources/mnbvc/fasttext-classification"]
-	path = resources/mnbvc/fasttext-classification
+	path = mnbvc-projects/fasttext-classification
 	url = https://github.com/Mythos-Rudy/mnbvc-fasttext-classification.git
 [submodule "resources/mnbvc/charset"]
-	path = resources/mnbvc/charset
+	path = mnbvc-projects/charset
 	url = https://github.com/alanshi/charset_mnbvc.git
 [submodule "resources/mnbvc/mossQA"]
-	path = resources/mnbvc/mossQA
+	path = mnbvc-projects/mossQA
 	url = https://github.com/luojie1024/MossQA-mnbvc.git
 [submodule "resources/mnbvc/docx2json"]
-	path = resources/mnbvc/docx2json
+	path = mnbvc-projects/docx2json
 	url = https://github.com/fzp0515/docx2json.git
 [submodule "resources/mnbvc/parallel_corpus"]
-	path = resources/mnbvc/parallel_corpus
+	path = mnbvc-projects/parallel_corpus
 	url = https://github.com/liyongsea/parallel_corpus_mnbvc.git
 [submodule "resources/mnbvc/WikiHowQAExtractor"]
-	path = resources/mnbvc/WikiHowQAExtractor
+	path = mnbvc-projects/WikiHowQAExtractor
 	url = https://github.com/wanicca/WikiHowQAExtractor-mnbvc.git
 [submodule "resources/mnbvc/QA_with_reporters_from_the_Ministry_of_Foreign_Affair"]
-	path = resources/mnbvc/QA_with_reporters_from_the_Ministry_of_Foreign_Affair
+	path = mnbvc-projects/QA_with_reporters_from_the_Ministry_of_Foreign_Affair
 	url = https://github.com/UnstoppableCurry/QA_with_reporters_from_the_Ministry_of_Foreign_Affair_mnbvc.git
 [submodule "resources/mnbvc/pds2txt"]
-	path = resources/mnbvc/pds2txt
+	path = mnbvc-projects/pds2txt
 	url = https://github.com/jayhenry/pdf2txt_mnbvc.git
 [submodule "resources/mnbvc/stackexchange"]
-	path = resources/mnbvc/stackexchange
+	path = mnbvc-projects/stackexchange
 	url = https://github.com/livehl/stackexchange_mnbvc.git
 [submodule "resources/mnbvc/mmdp"]
-	path = resources/mnbvc/mmdp
+	path = mnbvc-projects/mmdp
 	url = https://github.com/MIracleyin/mmdp_mnbvc.git
 [submodule "resources/mnbvc/github_pub_repo"]
-	path = resources/mnbvc/github_pub_repo
+	path = mnbvc-projects/github_pub_repo
 	url = https://github.com/washing1127/publicRepos_mnbvc.git
 [submodule "resources/mnbvc/github_downloader"]
-	path = resources/mnbvc/github_downloader
+	path = mnbvc-projects/github_downloader
 	url = https://github.com/imgingroot/github_downloader_mnbvc.git
 [submodule "resources/ydata-profiling"]
 	path = resources/ydata-profiling
@@ -149,10 +149,10 @@
 	path = resources/spring-ecm
 	url = https://github.com/paulcwarren/spring-content.git
 [submodule "resources/open-lineage"]
-	path = resources/open-lineage
+	path = meta-projects/open-lineage
 	url = https://github.com/OpenLineage/OpenLineage.git
 [submodule "resources/open-metedata"]
-	path = resources/open-metedata
+	path = meta-projects/open-metedata
 	url = https://github.com/open-metadata/OpenMetadata.git
 [submodule "resources/db-anyline"]
 	path = resources/db-anyline
@@ -164,7 +164,7 @@
 	path = resources/beam-etl-demo
 	url = https://github.com/nmoisess/apache-beam-etl-pipeline-demo.git
 [submodule "resources/kafka-ui"]
-	path = resources/kafka-ui
+	path = streaming-projects/kafka-ui
 	url = https://github.com/kafbat/kafka-ui.git
 [submodule "resources/beam_big_data"]
 	path = resources/beam_big_data
@@ -173,10 +173,10 @@
 	path = resources/opentelemetry-java-examples
 	url = https://github.com/open-telemetry/opentelemetry-java-examples.git
 [submodule "resources/flink-on-k8s-operator"]
-	path = resources/flink-on-k8s-operator
+	path = flink-projects/flink-on-k8s-operator
 	url = https://github.com/spotify/flink-on-k8s-operator.git
 [submodule "resources/flink-cdc"]
-	path = resources/flink-cdc
+	path = flink-projects/flink-cdc
 	url = https://github.com/apache/flink-cdc.git
 [submodule "resources/tis"]
 	path = resources/tis
@@ -185,19 +185,19 @@
 	path = resources/datavines
 	url = https://github.com/datavane/datavines.git
 [submodule "resources/flink_second_understand"]
-	path = resources/flink_second_understand
+	path = flink-projects/flink_second_understand
 	url = https://github.com/threeknowbigdata/flink_second_understand.git
 [submodule "resources/flink-learning"]
-	path = resources/flink-learning
+	path = flink-projects/flink-learning
 	url = https://github.com/zhisheng17/flink-learning.git
 [submodule "resources/content-oss"]
 	path = resources/content-oss
 	url = https://github.com/gentics/cms-oss.git
 [submodule "resources/flink"]
-	path = resources/flink
+	path = flink-projects/flink
 	url = https://github.com/apache/flink.git
 [submodule "resources/flink-kubernetes-operator"]
-	path = resources/flink-kubernetes-operator
+	path = flink-projects/flink-kubernetes-operator
 	url = https://github.com/apache/flink-kubernetes-operator.git
 [submodule "resources/starrocks"]
 	path = resources/starrocks
@@ -221,7 +221,7 @@
 	path = resources/trino
 	url = https://github.com/trinodb/trino.git
 [submodule "resources/unitycatalog"]
-	path = resources/unitycatalog
+	path = meta-projects/unitycatalog
 	url = https://github.com/unitycatalog/unitycatalog.git
 [submodule "resources/seatunnel-web"]
 	path = resources/seatunnel-web
@@ -269,13 +269,13 @@
 	path = resources/openlineage
 	url = https://github.com/OpenLineage/OpenLineage.git
 [submodule "resources/gravitino"]
-	path = resources/gravitino
+	path = meta-projects/gravitino
 	url = https://github.com/apache/gravitino.git
 [submodule "resources/kakbat-ui"]
-	path = resources/kakbat-ui
+	path = streaming-projects/kakbat-ui
 	url = https://github.com/kafbat/kafka-ui.git
 [submodule "resources/kakbat-ui-charts"]
-	path = resources/kakbat-ui-charts
+	path = streaming-projects/kakbat-ui-charts
 	url = https://github.com/kafbat/helm-charts.git
 [submodule "resources/apicurio-registry"]
 	path = resources/apicurio-registry
@@ -284,22 +284,22 @@
 	path = resources/strimzi-kafka-operator
 	url = https://github.com/strimzi/strimzi-kafka-operator.git
 [submodule "resources/streampark"]
-	path = resources/streampark
+	path = streaming-projects/streampark
 	url = https://github.com/apache/streampark.git
 [submodule "resources/datafusion"]
 	path = resources/datafusion
 	url = https://github.com/apache/datafusion.git
 [submodule "resources/vector"]
-	path = resources/vector
+	path = streaming-projects/vector
 	url = https://github.com/vectordotdev/vector.git
 [submodule "resources/nats-server"]
-	path = resources/nats-server
+	path = streaming-projects/nats-server
 	url = https://github.com/nats-io/nats-server.git
 [submodule "resources/nats-site"]
-	path = resources/nats-site
+	path = streaming-projects/nats-site
 	url = https://github.com/nats-io/nats-site.git
 [submodule "resources/nats-docs"]
-	path = resources/nats-docs
+	path = streaming-projects/nats-docs
 	url = https://github.com/nats-io/nats.docs.git
 [submodule "resources/metabase"]
 	path = resources/metabase
