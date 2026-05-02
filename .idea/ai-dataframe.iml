@@ -5,6 +5,7 @@
       <sourceFolder url="file://$MODULE_DIR$/resources/datahub/metadata-ingestion/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/content" />
       <excludeFolder url="file://$MODULE_DIR$/resources" />
+      <excludeFolder url="file://$MODULE_DIR$" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

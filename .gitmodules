@@ -271,3 +271,39 @@
 [submodule "resources/gravitino"]
 	path = resources/gravitino
 	url = https://github.com/apache/gravitino.git
+[submodule "resources/kakbat-ui"]
+	path = resources/kakbat-ui
+	url = https://github.com/kafbat/kafka-ui.git
+[submodule "resources/kakbat-ui-charts"]
+	path = resources/kakbat-ui-charts
+	url = https://github.com/kafbat/helm-charts.git
+[submodule "resources/apicurio-registry"]
+	path = resources/apicurio-registry
+	url = https://github.com/Apicurio/apicurio-registry.git
+[submodule "resources/strimzi-kafka-operator"]
+	path = resources/strimzi-kafka-operator
+	url = https://github.com/strimzi/strimzi-kafka-operator.git
+[submodule "resources/streampark"]
+	path = resources/streampark
+	url = https://github.com/apache/streampark.git
+[submodule "resources/datafusion"]
+	path = resources/datafusion
+	url = https://github.com/apache/datafusion.git
+[submodule "resources/vector"]
+	path = resources/vector
+	url = https://github.com/vectordotdev/vector.git
+[submodule "resources/nats-server"]
+	path = resources/nats-server
+	url = https://github.com/nats-io/nats-server.git
+[submodule "resources/nats-site"]
+	path = resources/nats-site
+	url = https://github.com/nats-io/nats-site.git
+[submodule "resources/nats-docs"]
+	path = resources/nats-docs
+	url = https://github.com/nats-io/nats.docs.git
+[submodule "resources/metabase"]
+	path = resources/metabase
+	url = https://github.com/metabase/metabase.git
+[submodule "resources/supersonic"]
+	path = resources/supersonic
+	url = https://github.com/tencentmusic/supersonic.git
