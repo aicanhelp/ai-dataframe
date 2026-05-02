@@ -29,13 +29,13 @@
 	path = resources/linkedin-rest.li
 	url = https://github.com/linkedin/rest.li.git
 [submodule "resources/streamlit"]
-	path = resources/streamlit
+	path = explore-projects/streamlit
 	url = https://github.com/streamlit/streamlit.git
 [submodule "resources/streamlit-geospatial"]
-	path = resources/streamlit-geospatial
+	path = explore-projects/streamlit-geospatial
 	url = https://github.com/giswqs/streamlit-geospatial.git
 [submodule "resources/streamlit-extras"]
-	path = resources/streamlit-extras
+	path = explore-projects/streamlit-extras
 	url = https://github.com/arnaudmiribel/streamlit-extras.git
 [submodule "resources/geomesa"]
 	path = geo-projects/geomesa
@@ -44,7 +44,7 @@
 	path = geo-projects/geomesa-tutorials
 	url = https://github.com/geomesa/geomesa-tutorials.git
 [submodule "resources/jts"]
-	path = resources/jts
+	path = geo-projects/jts
 	url = https://github.com/locationtech/jts.git
 [submodule "resources/geotrellis"]
 	path = geo-projects/geotrellis
@@ -182,7 +182,7 @@
 	path = resources/tis
 	url = https://github.com/datavane/tis.git
 [submodule "resources/datavines"]
-	path = resources/datavines
+	path = tunnel-projects/datavines
 	url = https://github.com/datavane/datavines.git
 [submodule "resources/flink_second_understand"]
 	path = flink-projects/flink_second_understand
@@ -203,7 +203,7 @@
 	path = database-projects/starrocks
 	url = https://github.com/StarRocks/starrocks.git
 [submodule "resources/superset"]
-	path = resources/superset
+	path = explore-projects/superset
 	url = https://github.com/apache/superset.git
 [submodule "resources/superset-zh"]
 	path = resources/superset-zh
@@ -224,10 +224,10 @@
 	path = meta-projects/unitycatalog
 	url = https://github.com/unitycatalog/unitycatalog.git
 [submodule "resources/seatunnel-web"]
-	path = resources/seatunnel-web
+	path = tunnel-projects/seatunnel-web
 	url = https://github.com/apache/seatunnel-web.git
 [submodule "resources/seatunnel"]
-	path = resources/seatunnel
+	path = tunnel-projects/seatunnel
 	url = https://github.com/apache/seatunnel.git
 [submodule "resources/inlong"]
 	path = resources/inlong
