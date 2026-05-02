@@ -38,19 +38,19 @@
 	path = resources/streamlit-extras
 	url = https://github.com/arnaudmiribel/streamlit-extras.git
 [submodule "resources/geomesa"]
-	path = resources/geomesa
+	path = geo-projects/geomesa
 	url = https://github.com/locationtech/geomesa.git
 [submodule "resources/geomesa-tutorials"]
-	path = resources/geomesa-tutorials
+	path = geo-projects/geomesa-tutorials
 	url = https://github.com/geomesa/geomesa-tutorials.git
 [submodule "resources/jts"]
 	path = resources/jts
 	url = https://github.com/locationtech/jts.git
 [submodule "resources/geotrellis"]
-	path = resources/geotrellis
+	path = geo-projects/geotrellis
 	url = https://github.com/locationtech/geotrellis.git
 [submodule "resources/geoserver"]
-	path = resources/geoserver
+	path = geo-projects/geoserver
 	url = https://github.com/geoserver/geoserver.git
 [submodule "resources/beam"]
 	path = resources/beam
@@ -158,7 +158,7 @@
 	path = resources/db-anyline
 	url = https://github.com/anylineorg/anyline.git
 [submodule "resources/metacat"]
-	path = resources/metacat
+	path = meta-projects/metacat
 	url = https://github.com/Netflix/metacat.git
 [submodule "resources/beam-etl-demo"]
 	path = resources/beam-etl-demo
@@ -200,7 +200,7 @@
 	path = flink-projects/flink-kubernetes-operator
 	url = https://github.com/apache/flink-kubernetes-operator.git
 [submodule "resources/starrocks"]
-	path = resources/starrocks
+	path = database-projects/starrocks
 	url = https://github.com/StarRocks/starrocks.git
 [submodule "resources/superset"]
 	path = resources/superset
@@ -212,7 +212,7 @@
 	path = resources/dinky
 	url = https://github.com/DataLinkDC/dinky.git
 [submodule "resources/starrocks-demo"]
-	path = resources/starrocks-demo
+	path = database-projects/starrocks-demo
 	url = https://github.com/StarRocks/demo.git
 [submodule "resources/dolphinscheduler"]
 	path = resources/dolphinscheduler
@@ -233,7 +233,7 @@
 	path = resources/inlong
 	url = https://github.com/apache/inlong.git
 [submodule "resources/doris"]
-	path = resources/doris
+	path = database-projects/doris
 	url = https://github.com/apache/doris.git
 [submodule "resources/superset-412"]
 	path = resources/superset-412
@@ -242,31 +242,31 @@
 	path = resources/dbt-duckdb
 	url = https://github.com/duckdb/dbt-duckdb.git
 [submodule "resources/duckdb"]
-	path = resources/duckdb
+	path = database-projects/duckdb
 	url = https://github.com/duckdb/duckdb.git
 [submodule "resources/marimo"]
 	path = resources/marimo
 	url = https://github.com/marimo-team/marimo.git
 [submodule "resources/sqlglot"]
-	path = resources/sqlglot
+	path = database-projects/sqlglot
 	url = https://github.com/tobymao/sqlglot.git
 [submodule "resources/doris-operator"]
-	path = resources/doris-operator
+	path = database-projects/doris-operator
 	url = https://github.com/apache/doris-operator.git
 [submodule "resources/postgres-operator"]
-	path = resources/postgres-operator
+	path = database-projects/postgres-operator
 	url = https://github.com/zalando/postgres-operator.git
 [submodule "resources/kyuubi"]
 	path = resources/kyuubi
 	url = https://github.com/apache/kyuubi.git
 [submodule "resources/patroni"]
-	path = resources/patroni
+	path = database-projects/patroni
 	url = https://github.com/patroni/patroni.git
 [submodule "resources/kyuubi-docker"]
 	path = resources/kyuubi-docker
 	url = https://github.com/apache/kyuubi-docker.git
 [submodule "resources/openlineage"]
-	path = resources/openlineage
+	path = meta-projects/openlineage
 	url = https://github.com/OpenLineage/OpenLineage.git
 [submodule "resources/gravitino"]
 	path = meta-projects/gravitino
@@ -302,7 +302,7 @@
 	path = streaming-projects/nats-docs
 	url = https://github.com/nats-io/nats.docs.git
 [submodule "resources/metabase"]
-	path = resources/metabase
+	path = meta-projects/metabase
 	url = https://github.com/metabase/metabase.git
 [submodule "resources/supersonic"]
 	path = resources/supersonic
