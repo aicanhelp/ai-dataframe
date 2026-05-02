@@ -56,19 +56,19 @@
 	path = resources/beam
 	url = https://github.com/apache/beam.git
 [submodule "resources/geonode"]
-	path = resources/geonode
+	path = geo-projects/geonode
 	url = https://github.com/GeoNode/geonode.git
 [submodule "resources/geonetwork-core"]
-	path = resources/geonetwork-core
+	path = geo-projects/geonetwork-core
 	url = https://github.com/geonetwork/core-geonetwork.git
 [submodule "resources/geonetwork-microservice"]
-	path = resources/geonetwork-microservice
+	path = geo-projects/geonetwork-microservice
 	url = https://github.com/geonetwork/geonetwork-microservices.git
 [submodule "resources/geonetwork-ui"]
-	path = resources/geonetwork-ui
+	path = geo-projects/geonetwork-ui
 	url = https://github.com/geonetwork/geonetwork-ui.git
 [submodule "resources/geonetwork-docker"]
-	path = resources/geonetwork-docker
+	path = geo-projects/geonetwork-docker
 	url = https://github.com/geonetwork/docker-geonetwork.git
 [submodule "resources/open-metadata"]
 	path = meta-projects/open-metadata
@@ -218,7 +218,7 @@
 	path = resources/dolphinscheduler
 	url = https://github.com/apache/dolphinscheduler.git
 [submodule "resources/trino"]
-	path = resources/trino
+	path = query-projects/trino
 	url = https://github.com/trinodb/trino.git
 [submodule "resources/unitycatalog"]
 	path = meta-projects/unitycatalog
@@ -257,13 +257,13 @@
 	path = database-projects/postgres-operator
 	url = https://github.com/zalando/postgres-operator.git
 [submodule "resources/kyuubi"]
-	path = resources/kyuubi
+	path = query-projects/kyuubi
 	url = https://github.com/apache/kyuubi.git
 [submodule "resources/patroni"]
 	path = database-projects/patroni
 	url = https://github.com/patroni/patroni.git
 [submodule "resources/kyuubi-docker"]
-	path = resources/kyuubi-docker
+	path = query-projects/kyuubi-docker
 	url = https://github.com/apache/kyuubi-docker.git
 [submodule "resources/openlineage"]
 	path = meta-projects/openlineage
@@ -287,7 +287,7 @@
 	path = streaming-projects/streampark
 	url = https://github.com/apache/streampark.git
 [submodule "resources/datafusion"]
-	path = resources/datafusion
+	path = query-projects/datafusion
 	url = https://github.com/apache/datafusion.git
 [submodule "resources/vector"]
 	path = streaming-projects/vector
