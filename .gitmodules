@@ -1,17 +1,17 @@
 [submodule "resources/vaex"]
-	path = resources/vaex
+	path = explore-projects/vaex
 	url = https://github.com/vaexio/vaex.git
 [submodule "resources/dask"]
 	path = resources/dask
 	url = https://github.com/dask/dask.git
 [submodule "resources/dask-distributed"]
-	path = resources/dask-distributed
+	path = process-projects/dask-distributed
 	url = https://github.com/dask/distributed.git
 [submodule "resources/rapidminer-studio"]
 	path = resources/rapidminer-studio
 	url = https://github.com/rapidminer/rapidminer-studio.git
 [submodule "resources/pachyderm"]
-	path = resources/pachyderm
+	path = explore-projects/pachyderm
 	url = https://github.com/pachyderm/pachyderm.git
 [submodule "resources/gridstudio"]
 	path = resources/gridstudio
@@ -26,7 +26,7 @@
 	path = meta-projects/datahub-helm
 	url = https://github.com/acryldata/datahub-helm.git
 [submodule "resources/linkedin-rest.li"]
-	path = resources/linkedin-rest.li
+	path = meta-projects/linkedin-rest.li
 	url = https://github.com/linkedin/rest.li.git
 [submodule "resources/streamlit"]
 	path = explore-projects/streamlit
@@ -53,7 +53,7 @@
 	path = geo-projects/geoserver
 	url = https://github.com/geoserver/geoserver.git
 [submodule "resources/beam"]
-	path = resources/beam
+	path = process-projects/beam
 	url = https://github.com/apache/beam.git
 [submodule "resources/geonode"]
 	path = geo-projects/geonode
@@ -74,19 +74,19 @@
 	path = meta-projects/open-metadata
 	url = https://github.com/open-metadata/OpenMetadata.git
 [submodule "resources/content-mesh"]
-	path = resources/content-mesh
+	path = content-projects/content-mesh
 	url = https://github.com/gentics/mesh.git
 [submodule "resources/content-mesh-oss"]
-	path = resources/content-mesh-oss
+	path = content-projects/content-mesh-oss
 	url = https://github.com/gentics/cms-oss.git
 [submodule "resources/trafilatura"]
-	path = resources/trafilatura
+	path = process-projects/trafilatura
 	url = https://github.com/adbar/trafilatura.git
 [submodule "resources/flagdata"]
-	path = resources/flagdata
+	path = explore-projects/flagdata
 	url = https://github.com/FlagOpen/FlagData.git
 [submodule "resources/awesomw-web-scraping"]
-	path = resources/awesomw-web-scraping
+	path = process-projects/awesomw-web-scraping
 	url = https://github.com/lorien/awesome-web-scraping.git
 [submodule "resources/mnbvc/deduplication_mnbvc"]
 	path = mnbvc-projects/deduplication_mnbvc
@@ -131,22 +131,22 @@
 	path = mnbvc-projects/github_downloader
 	url = https://github.com/imgingroot/github_downloader_mnbvc.git
 [submodule "resources/ydata-profiling"]
-	path = resources/ydata-profiling
+	path = explore-projects/ydata-profiling
 	url = https://github.com/ydataai/ydata-profiling.git
 [submodule "resources/sweetviz"]
-	path = resources/sweetviz
+	path = explore-projects/sweetviz
 	url = https://github.com/fbdesignpro/sweetviz.git
 [submodule "resources/dataprep"]
-	path = resources/dataprep
+	path = process-projects/dataprep
 	url = https://github.com/sfu-db/dataprep.git
 [submodule "resources/autoviz"]
-	path = resources/autoviz
+	path = explore-projects/autoviz
 	url = https://github.com/AutoViML/AutoViz.git
 [submodule "resources/apache-arrow"]
 	path = resources/apache-arrow
 	url = https://github.com/apache/arrow.git
 [submodule "resources/spring-ecm"]
-	path = resources/spring-ecm
+	path = content-projects/spring-ecm
 	url = https://github.com/paulcwarren/spring-content.git
 [submodule "resources/open-lineage"]
 	path = meta-projects/open-lineage
@@ -155,19 +155,19 @@
 	path = meta-projects/open-metedata
 	url = https://github.com/open-metadata/OpenMetadata.git
 [submodule "resources/db-anyline"]
-	path = resources/db-anyline
+	path = database-projects/db-anyline
 	url = https://github.com/anylineorg/anyline.git
 [submodule "resources/metacat"]
 	path = meta-projects/metacat
 	url = https://github.com/Netflix/metacat.git
 [submodule "resources/beam-etl-demo"]
-	path = resources/beam-etl-demo
+	path = process-projects/beam-etl-demo
 	url = https://github.com/nmoisess/apache-beam-etl-pipeline-demo.git
 [submodule "resources/kafka-ui"]
 	path = streaming-projects/kafka-ui
 	url = https://github.com/kafbat/kafka-ui.git
 [submodule "resources/beam_big_data"]
-	path = resources/beam_big_data
+	path = process-projects/beam_big_data
 	url = https://github.com/PacktPublishing/Building-Big-Data-Pipelines-with-Apache-Beam.git
 [submodule "resources/opentelemetry-java-examples"]
 	path = resources/opentelemetry-java-examples
@@ -179,7 +179,7 @@
 	path = flink-projects/flink-cdc
 	url = https://github.com/apache/flink-cdc.git
 [submodule "resources/tis"]
-	path = resources/tis
+	path = tunnel-projects/tis
 	url = https://github.com/datavane/tis.git
 [submodule "resources/datavines"]
 	path = tunnel-projects/datavines
@@ -191,7 +191,7 @@
 	path = flink-projects/flink-learning
 	url = https://github.com/zhisheng17/flink-learning.git
 [submodule "resources/content-oss"]
-	path = resources/content-oss
+	path = content-projects/content-oss
 	url = https://github.com/gentics/cms-oss.git
 [submodule "resources/flink"]
 	path = flink-projects/flink
@@ -206,16 +206,16 @@
 	path = explore-projects/superset
 	url = https://github.com/apache/superset.git
 [submodule "resources/superset-zh"]
-	path = resources/superset-zh
+	path = explore-projects/superset-zh
 	url = https://github.com/lutinglt/superset-zh.git
 [submodule "resources/dinky"]
-	path = resources/dinky
+	path = tunnel-projects/dinky
 	url = https://github.com/DataLinkDC/dinky.git
 [submodule "resources/starrocks-demo"]
 	path = database-projects/starrocks-demo
 	url = https://github.com/StarRocks/demo.git
 [submodule "resources/dolphinscheduler"]
-	path = resources/dolphinscheduler
+	path = process-projects/dolphinscheduler
 	url = https://github.com/apache/dolphinscheduler.git
 [submodule "resources/trino"]
 	path = query-projects/trino
@@ -230,7 +230,7 @@
 	path = tunnel-projects/seatunnel
 	url = https://github.com/apache/seatunnel.git
 [submodule "resources/inlong"]
-	path = resources/inlong
+	path = tunnel-projects/inlong
 	url = https://github.com/apache/inlong.git
 [submodule "resources/doris"]
 	path = database-projects/doris
@@ -239,13 +239,13 @@
 	path = resources/superset-412
 	url = https://github.com/martyngigg/superset.git
 [submodule "resources/dbt-duckdb"]
-	path = resources/dbt-duckdb
+	path = database-projects/dbt-duckdb
 	url = https://github.com/duckdb/dbt-duckdb.git
 [submodule "resources/duckdb"]
 	path = database-projects/duckdb
 	url = https://github.com/duckdb/duckdb.git
 [submodule "resources/marimo"]
-	path = resources/marimo
+	path = explore-projects/marimo
 	url = https://github.com/marimo-team/marimo.git
 [submodule "resources/sqlglot"]
 	path = database-projects/sqlglot
@@ -278,10 +278,10 @@
 	path = streaming-projects/kakbat-ui-charts
 	url = https://github.com/kafbat/helm-charts.git
 [submodule "resources/apicurio-registry"]
-	path = resources/apicurio-registry
+	path = meta-projects/apicurio-registry
 	url = https://github.com/Apicurio/apicurio-registry.git
 [submodule "resources/strimzi-kafka-operator"]
-	path = resources/strimzi-kafka-operator
+	path = streaming-projects/strimzi-kafka-operator
 	url = https://github.com/strimzi/strimzi-kafka-operator.git
 [submodule "resources/streampark"]
 	path = streaming-projects/streampark
@@ -305,5 +305,5 @@
 	path = meta-projects/metabase
 	url = https://github.com/metabase/metabase.git
 [submodule "resources/supersonic"]
-	path = resources/supersonic
+	path = explore-projects/supersonic
 	url = https://github.com/tencentmusic/supersonic.git
